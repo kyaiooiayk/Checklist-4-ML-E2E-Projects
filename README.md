@@ -38,11 +38,67 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
     - Structured: SQL
     - Unstructured: NoSQL
 - Data transformation
+- EDA (Exploratory Design Analysis)
 - Build an ETL (Extra, Transform & Load) pipeline
     
 </details>
 
 ***
 
+## Programming
+<details>
+<summary>Expand ⬇️</summary>
+<br>
 
+- Code release:
+    - Major
+    - Minor
+    - Patch
+- Code versionning:
+    - [GitHub](https://github.com/)
+    - [GitLab](https://about.gitlab.com/)
+- Code optimisation
+    - Refactoring
+    - Profilers
+    - Caching
+- Code testing
+    - Unittesting
+- Code obfuscation
+    - Serialisation vith Cython
+- Code shipping
+    - Containersition Docker image 
+    
+</details>
 
+***
+
+## Modelling
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+ 
+- Feature(s) vs. target(s)
+- Model versioning
+-  🐣 Create a baseline model
+- Keep track of your model dependencies
+- Feature selection
+- Feature engineering
+- Model metrics (Not model objective function and not necessarily KPIs!)    
+- Model CV (Cross Valisation)
+- Model hyperparameters:
+    - Grid search
+    - Successive halving
+    - BOHB
+- Model inference:
+    - on CPUs
+    - on GPUs
+    - on TPUs
+- Model serialisation (aka model persistence) / deserialisation
+    - joblib
+    - pickle
+    - skpops
+    - ONNX
+    
+</details>
+
+***
