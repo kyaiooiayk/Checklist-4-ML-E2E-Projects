@@ -30,14 +30,11 @@ Checklist for Machine Learning Projects. An almost incomplete collections MLOPs 
     - Create/augment your data with some synthetic data generation techniques
     - Dowload some open source. Best resource is probably [Kaggle](https://www.kaggle.com/)
 - Data versioning
-- Data labeling
-- Data schema which help validate the data. Especially for [concept drift](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)
-- Data verification/validation
 - Data cleaning
-- Data transformation
-- Data featue engineering
+- Data labeling
+- Establish a data schema which helps validate the data. Especially for [concept drift](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)
 - Data storage
     - Structured: SQL
     - Unstructured: NoSQL
-
+- Data transformation
 ***
