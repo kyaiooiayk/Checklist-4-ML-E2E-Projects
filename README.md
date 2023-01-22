@@ -1,7 +1,8 @@
 #  📋Checklist-4-ML-E2E-Projects📋
-Checklist for Machine Learning Projects. An almost incomplete collections MLOPs incomplete bullet points. This list serves two purpouses:
-- Provides a check list for things that are obvious but are really done or mostly forgotten
+Checklist for Machine Learning Projects. An almost incomplete collections of MLOPs bullet points. This list serves three purpouses:
+- Provides a checklist for things that are obvious but are really done or mostly forgotten
 - Provides a step-by-step guide to ML project
+- Provides links and references
 ***
 
 ## Scoping
@@ -24,7 +25,7 @@ Checklist for Machine Learning Projects. An almost incomplete collections MLOPs 
 <summary>Expand ⬇️</summary>
 <br>
 
-- Data sourcing/collection/ingestion	
+- Data sourcing/collection/ingestion
     - Collect your data from the web via scraping
     - Build your own dataset
     - Create/augment your data with some synthetic data generation techniques
@@ -36,5 +37,11 @@ Checklist for Machine Learning Projects. An almost incomplete collections MLOPs 
 - Data storage
     - Structured: SQL
     - Unstructured: NoSQL
-- Data transformation
+- Data transformation]
+
+</details>
+
 ***
+
+
+
