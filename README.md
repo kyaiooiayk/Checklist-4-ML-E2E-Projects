@@ -10,13 +10,13 @@ Checklist for Machine Learning Projects. An almost incomplete collections of MLO
 <summary>Expand ⬇️</summary>
 <br>
 
--  What is the project main objective?
--  Which part of the main objective a ML is addressing?
--  Establish a baseline against which your ML will be considered an improvement
--  Are there any solutions not based on a ML model?
--  Choose: KPIs	(key performance indicators)
--  📈 Monitor your project's objective over time.
--  🗣️ Talk to the domain expertes, they are those with the domain knowledge. 
+- ❓ What is the project main objective?
+- ❓ Which part of the main objective a ML is addressing?
+- Establish a baseline against which your ML will be considered an improvement
+- Are there any solutions not based on a ML model?
+- Choose: KPIs	(key performance indicators)
+- 📈 Monitor your project's objective over time
+- 🗣️ Talk to the domain expertes, they are those with the domain knowledge 
 
 </details>
 
