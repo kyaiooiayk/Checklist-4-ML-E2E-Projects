@@ -15,8 +15,8 @@ Checklist for Machine Learning Projects. An almost incomplete collections of MLO
 -  Establish a baseline against which your ML will be considered an improvement
 -  Are there any solutions not based on a ML model?
 -  Choose: KPIs	(key performance indicators)
--  Monitor your project's objective over time.
-- Talk to the domain expertes, they are those with the domain knowledge. 
+-  📈 Monitor your project's objective over time.
+-  🗣️ Talk to the domain expertes, they are those with the domain knowledge. 
 
 </details>
 
@@ -37,8 +37,9 @@ Checklist for Machine Learning Projects. An almost incomplete collections of MLO
 - Data storage
     - Structured: SQL
     - Unstructured: NoSQL
-- Data transformation]
-
+- Data transformation
+- Build an ETL (Extra, Transform & Load) pipeline
+    
 </details>
 
 ***
