@@ -10,13 +10,13 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
-- ❓ What is the project main objective?
-- ❓ Which part of the main objective a ML model is addressing?
-- 📈📉 Establish a [baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/) against which your ML will be considered an successful (an improvement against the baseline)
+- ❓ What is the project main objective(s)?
+- ❓ Which part of the main objective the ML model(s) is addressing?
+- 📈📉 Establish a [baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/) against which your ML will be considered successful (an improvement against the baseline)
 - ❓ Are there any solutions not based on a ML model? You are likely to be asked to compared your method against some no-ML model!
-- Choose: KPIs	(key performance indicators)
-- 📈 Monitor your project's objective over time
-- 🗣️ Talk to the domain expertes, they are those with the domain knowledge 
+- Choose the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
+- 📈 Monitor your project's objective(s) over time
+- 🗣️ Talk to the domain experts, they are those with the domain knowledge 
 
 </details>
 
@@ -25,7 +25,7 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
-- Data sourcing/collection/ingestion
+- Data sourcing/collection/ingestion:
     - Collect your data from the web via scraping
     - Build your own dataset
     - Create/augment your data with some synthetic data generation techniques
@@ -34,9 +34,9 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
 - Data cleaning
 - Data labeling
 - Establish a data schema which helps validate the data. Especially for [concept drift](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)
-- Data storage
-    - Structured: SQL
-    - Unstructured: NoSQL
+- 💽 Data storage:
+    - Structured data: SQL
+    - Unstructured data: NoSQL
 - Data transformation
 - EDA (Exploratory Design Analysis)
 - Build an ETL (Extra, Transform & Load) pipeline
