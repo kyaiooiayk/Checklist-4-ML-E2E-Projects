@@ -93,10 +93,10 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
     - on CPUs
     - on GPUs
     - on TPUs
-- Model serialisation (aka model persistence) / deserialisation
+- Model serialisation (aka model persistence) / deserialisation:
     - joblib
     - pickle
-    - skpops
+    - skops
     - ONNX
 - Model optimisation:
     - Quantisation
