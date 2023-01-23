@@ -1,5 +1,5 @@
 #  📋Checklist-4-ML-E2E-Projects📋
-Checklist for ML projects. An almost incomplete collections of MLOPs bullet points. This list serves three purpouses:
+Checklist for ML projects. An almost incomplete collections of MLOps bullet points. This list serves three purpouses:
 - Provides a **checklist** for things that are obvious but are rarely done/mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
 - Provides **links & references**
