@@ -5,7 +5,7 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
 - Provides **links & references**
 ***
 
-## Scoping
+## Scoping (Project managment)
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -17,6 +17,8 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
 - Choose the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
 - 📈 Monitor your project's objective(s) over time
 - 🗣️ Talk to the domain experts, they are those with the domain knowledge 
+- ⚠️ Keep track of what did not work as you develop your ML solution. Knowledge is not only about what worked, but largely what didn't.
+- 🔄 Keep in mind that ML solutions are not one-shot solutions. They need to be 1) followed and 2) developed over time
 
 </details>
 
@@ -76,9 +78,11 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
 <details>
 <summary>Expand ⬇️</summary>
 <br>
- 
-- Feature(s) vs. target(s)
-- Model versioning
+
+- 📖 Read about the topic/field you are building a ML solution for
+- Get a feeling of what the SOTA (State Of The Art)
+- Keep track of your model versions
+- Select what the feature(s) vs. target(s) are
 -  🐣 Create a baseline model
 - Keep track of your model dependencies
 - Feature selection
