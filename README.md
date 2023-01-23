@@ -7,12 +7,12 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 
 # Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
-2. [Data](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#data)
-3. [Programming](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#programming)
-4. [Modelling](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#modelling)
-5. [Deployment](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#deployment)
-6. [Responsible AI](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#responsabile-ai)
-7. [Continuous (MLOps)](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#continuous-mlops)
+2. [Data](#data)
+3. [Programming](#programming)
+4. [Modelling](#modelling)
+5. [Deployment](#deployment)
+6. [Responsible AI](#responsabile-ai)
+7. [Continuous (MLOps)](#continuous-mlops)
 ***
 
 ## Scoping (Project Managment)
