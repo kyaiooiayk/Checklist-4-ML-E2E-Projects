@@ -6,7 +6,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 ***
 
 # Table of contents
-1. [Scoping (Project Management)](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#scoping-project-managment)
+1. [Scoping (Project Management)](#scoping-project-managment)
 2. [Data](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#data)
 3. [Programming](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#programming)
 4. [Modelling](https://github.com/kyaiooiayk/Checklist-4-ML-E2E-Projects/edit/main/README.md#modelling)
