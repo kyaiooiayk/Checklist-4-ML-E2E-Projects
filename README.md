@@ -46,9 +46,10 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra)
     - [DVC](https://dvc.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/DVC)
 - Data ingestion/wrangling:
-    - [Pandas](https://pandas.pydata.org/) for dataset < 32Gb. For dataset that do not fit in memory you can load different chucks at the time | [Notes](https://github.com/kyaiooiayk/Pandas-Notes)
+    - 🐼 [Pandas](https://pandas.pydata.org/) for dataset < 32Gb. For dataset that do not fit in memory you can load different chucks at the time | [Notes](https://github.com/kyaiooiayk/Pandas-Notes)
+    - 🐻‍❄️ [Polars](https://github.com/pola-rs/polars) an optimised version of Pandas.
     - [Dask](https://www.dask.org/) for dataset 1Gb-100Gb | [Notes](https://github.com/kyaiooiayk/Dask) 
-    - [PySpark](https://spark.apache.org/docs/latest/api/python/) for dataset >100 Gb | [Notes](https://github.com/kyaiooiayk/pySpark-Notes)
+    - ✨[PySpark](https://spark.apache.org/docs/latest/api/python/) for dataset >100 Gb | [Notes](https://github.com/kyaiooiayk/pySpark-Notes)
 - Data cleaning
 - Data labeling
 - Data validation. Establish a data schema which helps validate the data. Especially for [concept drift](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/). Some commercial tools are:
