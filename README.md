@@ -45,7 +45,10 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - [Pandera](https://pandera.readthedocs.io/en/stable/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Data_validation/Pandera)
     - [Great Expectations](https://greatexpectations.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Data_validation/Great_expectations)
 - 💽 Data storage:
-    - Structured data: SQL
+    - Structured data: SQL. RDB (relational database) is a database that stores data into tables with rows and columns. To be able to process SQL queries on huge volumes of data that is stored in Hadoop cluster, specialised tools are needed. Here are some option for massive parallel processing.
+        - 🐝 [Hive](https://hive.apache.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/blob/master/tutorials/Hive.md) (twice as popular as Pig and developed by Facebook). Hive provides SQL type querying language for the ETL purpose on top of Hadoop file system. 
+        - 🐷 [Pig](https://pig.apache.org/) (less popular than Hive)
+        -  🦌 [Impala](https://impala.apache.org/docs/build/html/topics/impala_langref.html)    
     - Unstructured data: NoSQL
 - Data transformation
 - EDA (Exploratory Design Analysis)
