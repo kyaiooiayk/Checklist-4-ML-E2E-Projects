@@ -65,8 +65,8 @@ Checklist for ML projects. An almost incomplete collections of MLOPs bullet poin
     - Unittesting
 - Code obfuscation
     - Serialisation vith Cython
-- Code shipping
-    - Containersition Docker image 
+- Code shipping:
+    - Containersition with Docker
     
 </details>
 
