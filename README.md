@@ -89,7 +89,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Profilers
     - Caching
 - Code testing
-    - Unittesting
+    - [Unittesting](https://docs.python.org/3/library/unittest.html) | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Unittesting)
 - Code obfuscation
     - Serialisation vith Cython
 - Code shipping:
