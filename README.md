@@ -38,7 +38,8 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <br>
 
 - Data sourcing/collection/ingestion:
-    - Collect your data from the web via scraping
+    - 🌐 Collect your data from the web via scraping | [Notes](https://github.com/kyaiooiayk/Website-Scrapers)
+    - Collect data via third party API 
     - Build your own dataset
     - Create/augment your data with some synthetic data generation techniques
     - Dowload some open source. Best resource is probably [Kaggle](https://www.kaggle.com/)
