@@ -47,11 +47,13 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <br>
 
 - Data sourcing/collection/ingestion:
+    - Check legal obligations, and get the authorization if necessary
     - 🌐 Collect your data from the web via scraping | [Notes](https://github.com/kyaiooiayk/Website-Scrapers)
     - Collect data via third party API 
     - Build your own dataset
     - Create/augment your data with some synthetic data generation techniques
     - Dowload some open source. Best resource is probably [Kaggle](https://www.kaggle.com/)
+    - Ensure sensitive information is deleted or protected (e.g., anonymised)
 - Is data labelling necessay?:
     - ✅ Yes, then is human expertise available?
     - ❌ No, then unsupervised learning must be used
@@ -80,6 +82,14 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Dashboard:
     - Bokeh
     - Plotly
+- Data splitting:
+    - Large dataset:
+        - Train
+        - Test: (no data snooping!)
+    - Small dataset:
+        - Train
+        - Test: (no data snooping!)
+        - Validation
 - Build an ETL (Extra, Transform & Load) pipeline
     
 </details>
@@ -241,6 +251,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - ⚖️ Fairness
 - 👮‍♀️ Auditability
 - What-if-tool
+- 🔐 Ensure sensitive information is deleted or protected (e.g., anonymised)
 
 </details>
 
