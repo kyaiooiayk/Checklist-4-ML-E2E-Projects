@@ -90,6 +90,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Code versionning:
     - [GitHub](https://github.com/) | [Notes](https://github.com/kyaiooiayk/Git-Cheatsheet)
     - [GitLab](https://about.gitlab.com/)
+- Linters:
+    - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter, but you still run flake8.
+    - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
 - Code optimisation
     - Refactoring
     - Profilers
