@@ -29,7 +29,11 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - 🗣️ Talk to the domain experts, they are those with the domain knowledge 
 - ⚠️ Keep track of what did not work as you develop your ML solution. Knowledge is not only about what worked, but largely what didn't.
 - 🔄 Keep in mind that ML solutions are not one-shot solutions. They need to be 1) followed and 2) developed over time
-
+- Tool to manage/projects/people:    
+    - [Jira](https://www.atlassian.com/software/jira)
+    - [Confluence](https://www.atlassian.com/software/confluence) |  [Jira vs. Confluence](https://elements-apps.com/blog/jira-and-confluence/)
+    - [Trello](https://trello.com/home)
+    
 </details>
 
 ## Data
