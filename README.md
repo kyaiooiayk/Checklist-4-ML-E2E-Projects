@@ -8,7 +8,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 # Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
 2. [Data](#data)
-3. [Programming](#programming)
+3. [Programming](#programming-focused-on-python)
 4. [Modelling](#modelling)
 5. [Deployment](#deployment)
 6. [Responsible AI](#responsabile-ai)
@@ -78,7 +78,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 
 ***
 
-## Programming
+## Programming (focused on python)
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -90,8 +90,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Code versionning:
     - [GitHub](https://github.com/) | [Notes](https://github.com/kyaiooiayk/Git-Cheatsheet)
     - [GitLab](https://about.gitlab.com/)
-- Linters:
-    - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter, but you still run flake8.
+- Linters | [Notes](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md):
+    - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter.
+    - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
 - Code optimisation
     - Refactoring
