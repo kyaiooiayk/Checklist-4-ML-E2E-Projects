@@ -20,11 +20,16 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
+- Frame the problem and look at the big picture
 - ❓ What is the project main objective(s)?
 - ❓ Which part of the main objective the ML model(s) is addressing?
 - 📈📉 Establish a [baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/) against which your ML will be considered successful (an improvement against the baseline)
 - ❓ Are there any solutions not based on a ML model? You are likely to be asked to compared your method against some no-ML model!
-- Choose the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
+- ❓ Can How would you solve the problem manually?
+    - ✅ Yes, then how would you do it?
+    - ❌ No, then something more complex is needed
+- Define the objective in business terms. This involvs choosing the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
+- Think about how the ML soluion will be used
 - 📈 Monitor your project's objective(s) over time
 - 🗣️ Talk to the domain experts, they are those with the domain knowledge 
 - ⚠️ Keep track of what did not work as you develop your ML solution. Knowledge is not only about what worked, but largely what didn't.
@@ -47,6 +52,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Build your own dataset
     - Create/augment your data with some synthetic data generation techniques
     - Dowload some open source. Best resource is probably [Kaggle](https://www.kaggle.com/)
+- Is data labelling necessay?:
+    - ✅ Yes, then is human expertise available?
+    - ❌ No, then unsupervised learning must be used
 - Data versioning. Available tools:
     - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra)
     - [DVC](https://dvc.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/DVC)
@@ -68,7 +76,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
         -  🦌 [Impala](https://impala.apache.org/docs/build/html/topics/impala_langref.html) | [Hive vs. Impala](https://www.tutorialspoint.com/impala/impala_overview.htm)
     - Unstructured data: NoSQL
 - Data transformation
-- EDA (Exploratory Design Analysis)
+- EDA (Exploratory Design Analysis): explore the data to gain insights
 - Dashboard:
     - Bokeh
     - Plotly
@@ -120,14 +128,23 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <br>
 
 - 📖 Read about the topic/field you are building a ML solution for
+- ❓ How should you frame this problem supervised/unsupervised)?
+- ❓ How is the data coming in: online/offline?
 - Get a feeling of what the SOTA (State Of The Art)
+- List the assumptions you or others have made so far.
 - Keep track of your model versions
 - Select what the feature(s) vs. target(s) are
 -  🐣 Create a baseline model
 - Keep track of your model dependencies
 - Feature selection
 - Feature engineering
-- Model metrics (Not model objective function and not necessarily KPIs!)    
+- How should performance be measured? This means chooseing the model metrics (Not model objective function and not necessarily KPIs!)
+- Is the performance measure aligned with the business objective?
+    - ✅ Yes, non techical people / higher level managment will be able to follow the development
+    - ❌ No, then ask why? It is fine, but it necessay to find a proxy to link technical and business metrics
+- Choose a model(s)-
+    - First scenatio: there are plenty of SOTA options and they are cheap to run. Explore many different models and short-list the best ones.
+    - Second scenario: there are much less SOTA options and these are expesnive to run. This is especially true for DL model. 
 - Model training:
     - On premesis
     - On the cloud which means using cluster machines on the cloud. **Bare-metal** cloud is a public cloud service where the customer rents dedicated hardware resources from a remote service provider, without (hence bare) any installed operating systems or virtualization infrastructure. You have three options:
@@ -146,7 +163,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Latency vs. throughput:
     - If our application requires **low latency**, then we should deploy the model as a real-time API to provide super-fast predictions on single prediction requests over HTTPS.
      - For **less-latency-sensitive** applications that require high throughput, we should deploy our model as a batch job to perform batch predictions on large amounts of data.
-- Model serialisation (aka model persistence) / deserialisation. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation) Some of the format used are :
+- Model serialisation (aka model persistence) / deserialisation. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation) Some of the formats used are :
     - hdf5
     - json
     - dill
@@ -247,3 +264,6 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 </details>
 
 ***
+
+## Other checklists
+[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | 
