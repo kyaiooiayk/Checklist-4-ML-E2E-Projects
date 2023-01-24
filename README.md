@@ -215,10 +215,11 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
--  👩 Explainability
--  🔐 Security
--  ⚖️ Fairness
--  👮‍♀️ Auditability
+- 👩 Explainability
+- 🔐 Security
+- ⚖️ Fairness
+- 👮‍♀️ Auditability
+- What-if-tool
 
 </details>
 
