@@ -54,12 +54,13 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Create/augment your data with some synthetic data generation techniques
     - Dowload some open source. Best resource is probably [Kaggle](https://www.kaggle.com/)
     - Ensure sensitive information is deleted or protected (e.g., anonymised)
-- Is data labelling necessay?:
+- Is data labelling necessary?:
     - ✅ Yes, then is human expertise available?
     - ❌ No, then unsupervised learning must be used
 - Data versioning. Available tools:
     - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra)
     - [DVC](https://dvc.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/DVC)
+- Keep a copy of the original unclean data where possible.
 - Data ingestion/wrangling:
     - 🐼 [Pandas](https://pandas.pydata.org/) for dataset < 32Gb. For dataset that do not fit in memory you can load different chucks at the time | [Notes](https://github.com/kyaiooiayk/Pandas-Notes)
     - 🐻‍❄️ [Polars](https://github.com/pola-rs/polars) an optimised version of Pandas.
@@ -78,7 +79,23 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
         -  🦌 [Impala](https://impala.apache.org/docs/build/html/topics/impala_langref.html) | [Hive vs. Impala](https://www.tutorialspoint.com/impala/impala_overview.htm)
     - Unstructured data: NoSQL
 - Data transformation
-- EDA (Exploratory Design Analysis): explore the data to gain insights
+- EDA (Exploratory Design Analysis): explore the data to gain insights:
+    - Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
+    - % of missing values
+    - Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
+    - Type of distribution (Gaussian, uniform, logarithmic, etc.)
+    - Study the correlations between features and targets
+        - If no method shows some sort of correlation btw features and targets, then you may want to study the problem harder!
+    - Document in a report what you have learnt
+- Data cleaning:
+    - Are the any outliers? If yes, ask yourself why.
+    - Fill in missing values via some imputation strategies:
+        - Zero, mean or median
+        - Drop row values or the entire columns if too many row values are missing
+- Feature engineering:
+    - Discretize continuous features
+    - Add transformations like: log(x), sqrt(x), x^2, etc...
+    - Aggregate features into common bin
 - Dashboard:
     - Bokeh
     - Plotly
