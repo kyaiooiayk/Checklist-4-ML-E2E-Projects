@@ -46,6 +46,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
+- How much data do I need?
+    - Rule of thumb #1: roughly 10 times as many examples (rows) as there are degrees of freedom (features) | [Ref](https://www.kdnuggets.com/2019/06/5-ways-lack-data-machine-learning.html)
+    - If you are bound to a small dataset, this may be good for PoC (Proof of Concept), but for a production-ready model, you'd need many more | [Ref](https://www.kdnuggets.com/2019/06/5-ways-lack-data-machine-learning.html)
 - Data sourcing/collection/ingestion:
     - Check legal obligations, and get the authorization if necessary
     - 🌐 Collect your data from the web via scraping | [Notes](https://github.com/kyaiooiayk/Website-Scrapers)
@@ -54,8 +57,18 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Create/augment your data with some synthetic data generation techniques
     - Dowload some open source. Best resource is probably [Kaggle](https://www.kaggle.com/)
     - Ensure sensitive information is deleted or protected (e.g., anonymised)
+- Is the data enough? How do you deal with the lack of data?
+    - Try to establish a real data culture within your organization. From now on, you start tracking users.
+    - Build a free application and give it away while tacking how others use it. Facebook and Google are not far from this modus operandi.
+    - Naive Bayes algorithm is among the simplest classifiers and learns remarkably well from relatively small data sets.
+    - Consider using less complex algorithm; for instance limiting the depth of your decision tree.
+    - Consider using ensemble method.
+    - Consider using linear models such as liner/logistic regression where only linear interaction are modelled.
+    - Use transfer learning and this is the de-facto standard for LLM.
+    - Consider data augmentation. So for vision taks, you could rotate, scale etc ..
+    - ⚠️ Keep in mind that using synthetic data could potentially introduce bias on a real world phenomenon.
 - Is data labelling necessary?:
-    - ✅ Yes, then is human expertise available?
+    - ✅ Yes, then is human expertise available? Labelling is expensive as it involves many man hours. Consider automating it as much as you can.
     - ❌ No, then unsupervised learning must be used
 - Data versioning. Available tools:
     - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra)
