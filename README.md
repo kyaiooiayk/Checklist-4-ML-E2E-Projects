@@ -5,7 +5,16 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Provides **links & references**
 ***
 
-# Table of contents
+## Striving to:
+- Provide a small definition of each concept/bullet point/check
+- Provide a link to note where a concept is further discussed
+- Provide a checklist to be followed in a chronological order
+- List the available methods in the literature
+- List tools/packages that have incorporated the methods above
+- Provide the original paper of the cited method
+***
+
+## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
 2. [Data](#data)
 3. [Programming](#programming-focused-on-python)
@@ -20,7 +29,13 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
-- Frame the problem and look at the big picture
+- 🏦 BI (Business Intelligence) Tools involves the functions, strategies, and tools companies use to collect, process, and analyze data [Ref](https://www.coursera.org/articles/bi-tools):
+    - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/what-is-power-bi/)
+    - [Tableau](https://www.tableau.com/products/desktop)
+    - [QlikSense](https://www.qlik.com/us/products/qlik-sense)
+    - [Dundas BI](https://insightsoftware.com/dundas/)
+    - [Sisense](https://www.sisense.com/)
+- Frame the problem and look at the big picture    
 - ❓ What is the project main objective(s)?
 - ❓ Which part of the main objective the ML model(s) is addressing?
 - 📈📉 Establish a [baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/) against which your ML will be considered successful (an improvement against the baseline)
@@ -193,9 +208,13 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
         - [GCP (Google Cloud Platform)](https://cloud.google.com/)
 - Model CV (Cross Valisation)
 - Model hyperparameters:
-    - Grid search
-    - Successive halving
-    - BOHB
+    - Methods:
+        - Grid search
+        - Successive halving
+        - BOHB
+    - Tools:
+        - [Ray Tune](https://docs.ray.io/en/latest/tune/index.html) is a Python library for fast hyperparameter tuning at scale. | [Paper](https://arxiv.org/abs/1807.05118)
+        - [Optuna](https://optuna.org/) is an open source hyperparameter optimization framework to automate hyperparameter search. It is framework agnostic you can use it with any machine learning or deep learning framework. | [Paper](https://dl.acm.org/doi/10.1145/3292500.3330701)
 - Model inference:
     - on CPUs
     - on GPUs
@@ -277,6 +296,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <br>
 
 - 👩 Explainability
+    - SHAP
 - 🔐 Security
 - ⚖️ Fairness
 - 👮‍♀️ Auditability
