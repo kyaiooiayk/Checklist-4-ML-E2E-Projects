@@ -7,7 +7,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 
 ## Striving to:
 - Provide a small definition of each concept/bullet point/check
-- Provide a link to note where a concept is further discussed
+- Provide a link to notes where a concept is further discussed
 - Provide a checklist to be followed in a chronological order
 - List the available methods in the literature
 - List tools/packages that have incorporated the methods above
@@ -29,13 +29,13 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 <summary>Expand ⬇️</summary>
 <br>
 
-- 🏦 BI (Business Intelligence) Tools involves the functions, strategies, and tools companies use to collect, process, and analyze data [Ref](https://www.coursera.org/articles/bi-tools):
+- Frame the problem and look at the big picture    
+- 🏦 BI (Business Intelligence) Tools involves the functions, strategies, and tools companies use to collect, process, and analyze data [Ref](https://www.coursera.org/articles/bi-tools). These tools can help framing the problem:
     - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/what-is-power-bi/)
     - [Tableau](https://www.tableau.com/products/desktop)
     - [QlikSense](https://www.qlik.com/us/products/qlik-sense)
     - [Dundas BI](https://insightsoftware.com/dundas/)
     - [Sisense](https://www.sisense.com/)
-- Frame the problem and look at the big picture    
 - ❓ What is the project main objective(s)?
 - ❓ Which part of the main objective the ML model(s) is addressing?
 - 📈📉 Establish a [baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/) against which your ML will be considered successful (an improvement against the baseline)
@@ -43,7 +43,8 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - ❓ Can How would you solve the problem manually?
     - ✅ Yes, then how would you do it?
     - ❌ No, then something more complex is needed
-- Define the objective in business terms. This involvs choosing the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
+- Define the objectives in business terms. This involvs choosing the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
+- 🚔 Now put yourself in the **user seat** and make sure there is an alignment btw business KPIs and those stricly related to the users.
 - Think about how the ML soluion will be used
 - 📈 Monitor your project's objective(s) over time
 - 🗣️ Talk to the domain experts, they are those with the domain knowledge 
@@ -88,6 +89,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Data versioning. Available tools:
     - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra)
     - [DVC](https://dvc.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/DVC)
+- ❓ Is there a data bias?
+    - ✅ Yes, take action
+    - ❌ No, proceed
 - Keep a copy of the original unclean data where possible.
 - Data ingestion/wrangling:
     - 🐼 [Pandas](https://pandas.pydata.org/) for dataset < 32Gb. For dataset that do not fit in memory you can load different chucks at the time | [Notes](https://github.com/kyaiooiayk/Pandas-Notes)
@@ -120,6 +124,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Fill in missing values via some imputation strategies. Treat your data transformation choices as hyperparameters, especially when you are not sure about them (e.g., replace with zero, mean, meadina or just drop the rows?):
         - Zero, mean or median
         - Drop row values or the entire columns if too many row values are missing
+- Features scaline:
+    - If a deep learning application this almost certaintly done
+    - If not a DL application it depends. 
 - Feature engineering:
     - Discretize continuous features
     - Add transformations like: log(x), sqrt(x), x^2, etc...
@@ -191,7 +198,9 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Select what the feature(s) vs. target(s) are
 -  🐣 Create a baseline model
 - Keep track of your model dependencies
-- Feature selection
+- Feature selection:
+    - ❓ Can a domain expert help me determine which features are relevant?
+    - Let the model decide which feature is important; after you can remove it to make the model more efficient
 - Feature engineering
 - How should performance be measured? This means chooseing the model metrics (Not model objective function and not necessarily KPIs!)
 - Is the performance measure aligned with the business objective?
@@ -337,4 +346,4 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 ***
 
 ## Other checklists
-[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | 
+[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) |
