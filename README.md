@@ -304,6 +304,8 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
         - minikube
         - kind
         - k3s
+    - Orchestration
+        - [Argo Workflows](https://github.com/argoproj/argo-workflows) an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 
 </details>
 
@@ -341,6 +343,12 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Tools:
     - [GitHub Actions](https://github.com/features/actions) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/blob/master/tutorials/GitHub_Actions.md)
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
+- 🤹‍♂ Orchestration tools:
+    - [Kredo](https://kedro.readthedocs.io/en/stable/introduction/introduction.html) is an open-source Python framework for creating reproducible, maintainable and modular data science code. It borrows concepts from software engineering and applies them to machine-learning code; applied concepts include modularity, separation of concerns and versioning. Kedro is hosted by the LF AI & Data Foundation.
+    - [ZenML](https://docs.zenml.io/getting-started/introduction) is an extensible, open-source MLOps framework to create production-ready machine learning pipelines. Built for data scientists, it has a simple, flexible syntax, is cloud- and tool-agnostic, and has interfaces/abstractions that are catered towards ML workflows.
+    - [Metaflow](https://docs.metaflow.org/) is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
+    - [Kredo vs. ZenML vs. Metaflow](https://neptune.ai/blog/kedro-vs-zenml-vs-metaflow)
+
 </details>
 
 ***
