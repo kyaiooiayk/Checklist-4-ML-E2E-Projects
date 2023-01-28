@@ -117,7 +117,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Document in a report what you have learnt
 - Data cleaning:
     - Are the any outliers? If yes, ask yourself why.
-    - Fill in missing values via some imputation strategies:
+    - Fill in missing values via some imputation strategies. Treat your data transformation choices as hyperparameters, especially when you are not sure about them (e.g., replace with zero, mean, meadina or just drop the rows?):
         - Zero, mean or median
         - Drop row values or the entire columns if too many row values are missing
 - Feature engineering:
@@ -209,12 +209,16 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Model CV (Cross Valisation)
 - Model hyperparameters:
     - Methods:
-        - Grid search
+        - Grid search: doable when the parameters are small 
+        - Random search: preferred over random search over grid search
         - Successive halving
         - BOHB
+        - Bayesian optimisation: preferred if training is very long | [Ref](https://goo.gl/PEFfGr)
     - Tools:
         - [Ray Tune](https://docs.ray.io/en/latest/tune/index.html) is a Python library for fast hyperparameter tuning at scale. | [Paper](https://arxiv.org/abs/1807.05118)
         - [Optuna](https://optuna.org/) is an open source hyperparameter optimization framework to automate hyperparameter search. It is framework agnostic you can use it with any machine learning or deep learning framework. | [Paper](https://dl.acm.org/doi/10.1145/3292500.3330701)
+    - Don'ts:
+        - Once you are confident about your final model, measure its performance on the test set to estimate the generalization error. Don't tweak your model after measuring the generalization error: you would just start overfitting the test set. This is very hard in practice to enforce. Resist the temptation!
 - Model inference:
     - on CPUs
     - on GPUs
@@ -234,6 +238,12 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
     - Quantisation
     - Pruning
     - Teacher-student models
+- Reporting results:
+    - Tell a story with data | [Ref](https://pbs.twimg.com/media/E-C33uFWUAA2UiD?format=jpg&name=large)
+    - List your assumptions and your system's limitations.
+    - Explain why your solution achieves the business objective.
+    - Describe lessons learnt: what did not work is as much valuable as what did not.
+- Keep in mind that your production model will likely be changed in the future!
 
 </details>
 
