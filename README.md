@@ -14,6 +14,20 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Provide the original paper of the cited method
 ***
 
+## Project template: folder & contents
+
+```
+master-project-root-folder    # Project folder
+├── conf.cfg        # Pipeline configuration files/master file
+├── data            # Data + data splitting
+├── docs            # Documentation
+├── logs            # Logs of pipeline runs
+├── notebooks       # Exploratory Jupyter notebooks 
+├── README.md       # README.md explaining your project, similar to what you'll find on GitHub
+└── src             # Source code for pipelines: python + testing
+```
+***
+
 ## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
 2. [Data](#data)
