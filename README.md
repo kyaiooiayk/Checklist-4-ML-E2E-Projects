@@ -344,7 +344,7 @@ master-project-root-folder    #Project folder
 <summary>Expand ⬇️</summary>
 <br>
 
-- 👩 Explainability
+- 👩 Explainability | [Tutorials](https://github.com/kyaiooiayk/Explainable-AI-xAI-Notes) | [Notes](https://drive.google.com/drive/u/1/folders/1YTvctHR28vG2zBrSPpq5I1JcbV--FS6v)
     - SHAP
 - 🔐 Security
 - ⚖️ Fairness
