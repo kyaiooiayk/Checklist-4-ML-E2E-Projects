@@ -16,15 +16,29 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 
 ## Project template: folder & contents
 
-```
-master-project-root-folder    # Project folder
+```diff
+master-project-root-folder    #Project folder
 ├── conf.cfg        # Pipeline configuration files/master file
 ├── data            # Data + data splitting
+├──── original copy
+├──── train
+├──── test
+├──── valid
 ├── docs            # Documentation
 ├── logs            # Logs of pipeline runs
+├──── run_1_RNN_ID_11.log
+├──── run_2_LTSM_ID_12.log
+├──── .....
 ├── notebooks       # Exploratory Jupyter notebooks 
+├──── Notebook_RNN_V1.ipynb
+├──── Notebook_LSTM_V2.ipynb
+├──── .....
 ├── README.md       # README.md explaining your project, similar to what you'll find on GitHub
-└── src             # Source code for pipelines: python + testing
+├── src             # Source code for pipelines: python + testing
+├──── Preproces.py
+├──── Train.py
+├──── Postproces.py
+├──── Unittesting
 ```
 ***
 
