@@ -385,6 +385,7 @@ master-project-root-folder    #Project folder
 - Tools:
     - [GitHub Actions](https://github.com/features/actions) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/blob/master/tutorials/GitHub_Actions.md)
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
+    - [Weights and Biases](https://wandb.ai/site) is a developer-first MLOps platform, Build better models faster with experiment tracking, dataset versioning, and model management.
 - 🤹‍♂ Orchestration tools:
     - [Kredo](https://kedro.readthedocs.io/en/stable/introduction/introduction.html) is an open-source Python framework for creating reproducible, maintainable and modular data science code. It borrows concepts from software engineering and applies them to machine-learning code; applied concepts include modularity, separation of concerns and versioning. Kedro is hosted by the LF AI & Data Foundation.
     - [ZenML](https://docs.zenml.io/getting-started/introduction) is an extensible, open-source MLOps framework to create production-ready machine learning pipelines. Built for data scientists, it has a simple, flexible syntax, is cloud- and tool-agnostic, and has interfaces/abstractions that are catered towards ML workflows.
