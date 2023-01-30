@@ -5,6 +5,20 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Provides **links & references**
 ***
 
+<details> <summary>Expand ⬇️</summary>
+
+- afafdsdf 
+- afafdsdf 
+- <details> <summary>Expand ⬇️</summary>
+   
+    - adasd
+    - asdasd 
+    
+    </details>
+    
+</details>
+  
+  
 ## Striving to:
 - Provide a small definition of each concept/bullet point/check
 - Provide a link to notes where a concept is further discussed
@@ -13,7 +27,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - List tools/packages that have incorporated the methods above
 - Provide the original paper of the cited method
 ***
-
+  
 ## Project template: folder & contents
 
 ```diff
