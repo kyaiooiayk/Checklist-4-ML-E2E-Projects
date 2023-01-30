@@ -18,23 +18,23 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 
 ```diff
 master-project-root-folder    #Project folder
-├── conf.cfg        # Pipeline configuration files/master file
-├── data            # Data + data splitting
+├── conf.cfg # Pipeline configuration files/master file
+├── data
 ├──── original copy
 ├──── train
 ├──── test
 ├──── valid
-├── docs            # Documentation
-├── logs            # Logs of pipeline runs
+├── docs # Documentation
+├── logs # Logs of pipeline runs
 ├──── run_1_RNN_ID_11.log
 ├──── run_2_LTSM_ID_12.log
 ├──── .....
-├── notebooks       # Exploratory Jupyter notebooks 
+├── notebooks # Exploratory Jupyter notebooks 
 ├──── Notebook_RNN_V1.ipynb
 ├──── Notebook_LSTM_V2.ipynb
 ├──── .....
-├── README.md       # README.md explaining your project, similar to what you'll find on GitHub
-├── src             # Source code for pipelines: python + testing
+├── README.md # Project's goal and explanations, similar to what you'll find on GitHub
+├── src # python + test python files
 ├──── Preproces.py
 ├──── Train.py
 ├──── Postproces.py
@@ -333,6 +333,7 @@ master-project-root-folder    #Project folder
     - Green/blue
 - Monitoring:
     - Latency
+    - Throughput
     - IO
     - Memory
     - Uptime: system reliability
@@ -346,7 +347,7 @@ master-project-root-folder    #Project folder
         - minikube
         - kind
         - k3s
-    - Orchestration
+    - Orchestration:
         - [Argo Workflows](https://github.com/argoproj/argo-workflows) an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 
 </details>
