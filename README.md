@@ -74,15 +74,19 @@ master-project-root-folder    #Project folder
 - Define the objectives in business terms. This involvs choosing the business KPIs (key performance indicators). These are what businesses use to measure the uplift brought in by the ML-based solution.
 - 🚔 Now put yourself in the **user seat** and make sure there is an alignment btw business KPIs and those stricly related to the users.
 - Think about how the ML soluion will be used
-- 📈 Monitor your project's objective(s) over time
+- 📈 Monitor your project's objective(s) over time. Yes, you heard it right; do not monitor only the results. Requirements and project's goal do tend to change over time unfortunately.
 - 🗣️ Talk to the domain experts, they are those with the domain knowledge 
 - ⚠️ Keep track of what did not work as you develop your ML solution. Knowledge is not only about what worked, but largely what didn't.
 - 🔄 Keep in mind that ML solutions are not one-shot solutions. They need to be 1) followed and 2) developed over time
 - Tool to manage/projects/people:    
     - [Jira](https://www.atlassian.com/software/jira)
-    - [Confluence](https://www.atlassian.com/software/confluence) |  [Jira vs. Confluence](https://elements-apps.com/blog/jira-and-confluence/)
+    - [Confluence](https://www.atlassian.com/software/confluence) | [Jira vs. Confluence](https://elements-apps.com/blog/jira-and-confluence/)
     - [Trello](https://trello.com/home)
-    
+- Choose btw these different 3 scenarios (do not underestimate the importance of this, and this is the reason why it is under scoping and not under data or modelling section):
+    - **Data driven**: means the creation of technologies, skills, and an environment by ingesting a large amount of data. This does not mean data centric.
+    - **Data centric**: involves systematically altering/improving datasets in order to increase the accuracy of your ML applications.
+    - **Model centric**: keep the data the same, and you only improve the code/model architecture. What happens when new data is added or changed? The risk of having a bias-to-that-batch-of-data model is very high. 
+    - [Model centric vs. data centric](https://neptune.ai/blog/data-centric-vs-model-centric-machine-learning)
 </details>
 
 ## Data
