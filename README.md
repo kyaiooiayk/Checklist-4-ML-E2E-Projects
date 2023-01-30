@@ -235,8 +235,17 @@ master-project-root-folder    #Project folder
     - ✅ Yes, non techical people / higher level managment will be able to follow the development
     - ❌ No, then ask why? It is fine, but it necessay to find a proxy to link technical and business metrics
 - Choose a model(s)-
-    - First scenatio: there are plenty of SOTA options and they are cheap to run. Explore many different models and short-list the best ones.
-    - Second scenario: there are much less SOTA options and these are expesnive to run. This is especially true for DL model. 
+    - First scenario: there are plenty of SOTA options and these are cheap to run. One option would be to explore many different models and short-list the best ones.
+    - Second scenario: there are much less SOTA options and these are expesnive to run. This is especially true for DL model. One option would be to concentrate on one of them.
+- Choose a framework:
+    - Non Deep Learning:
+        - Scikit-Learn
+        - XGBoost
+        - LightGBM
+    - Deep Learning:
+        - Tensor flow or KERAS
+        - PyTorch
+        - JAX
 - Model training:
     - On premesis
     - On the cloud which means using cluster machines on the cloud. **Bare-metal** cloud is a public cloud service where the customer rents dedicated hardware resources from a remote service provider, without (hence bare) any installed operating systems or virtualization infrastructure. You have three options:
