@@ -130,6 +130,7 @@ master-project-root-folder    #Project folder
     - 🐻‍❄️ [Polars](https://github.com/pola-rs/polars) an optimised version of Pandas.
     - [Dask](https://www.dask.org/) for dataset 1Gb-100Gb | [Notes](https://github.com/kyaiooiayk/Dask) 
     - ✨[PySpark](https://spark.apache.org/docs/latest/api/python/) for dataset >100 Gb | [Notes](https://github.com/kyaiooiayk/pySpark-Notes)
+    - 🏹 [Apache PyArrow](https://arrow.apache.org/docs/python/index.html) is a cross-language development platform for in-memory data. It is a good option when data is stored in many components, for example, reading a parquet file with Python (pandas) and transforming to a Spark dataframe, Falcon Data Visualization or Cassandra without worrying about conversion. [Ref](https://towardsdatascience.com/a-gentle-introduction-to-apache-arrow-with-apache-spark-and-pandas-bb19ffe0ddae)
     - 🧱 [Databricks](https://www.databricks.com/) develops a web-based platform for working with Spark, that provides automated cluster management and IPython-style notebooks. | [Databricks vs. Azure databricks](https://www.websitebuilderinsider.com/is-azure-databricks-same-as-databricks/)
 - Data cleaning
 - Data labeling
