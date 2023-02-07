@@ -306,6 +306,10 @@ master-project-root-folder    #Project folder
 <summary>Expand ⬇️</summary>
 <br>
 
+- Deplyoing vs. serving [Ref](https://stackoverflow.com/questions/67018965/what-is-the-difference-between-deploying-and-serving-ml-model)
+  - Deploying is the process of putting the model into the server. 
+  - Serving is the process of making a model accessible from the server (for example with REST API or web sockets).
+  - Both deployment and serving can have REST API (or endpoint). Deployment doesn't necessarily require a REST API (an API would be sufficient).
 - RESTful API:
     - Django
     - [[Flask](https://flask.palletsprojects.com/en/2.1.x/) | [Notes](https://github.com/kyaiooiayk/Flask-Notes)]
@@ -329,7 +333,7 @@ master-project-root-folder    #Project folder
 - Servers:
     - [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) stands for Web Server Gateway Interface and is an application server that aims to provide a full stack for developing and deploying web applications and services. It is named after the Web Server Gateway Interface, which was the first plugin supported by the project.
     - [Nginx](https://www.nginx.com/) is a web server that can also be used as a reverse proxy (which provides a more robust connection handling), load balancer, mail proxy and HTTP cache.
-- Deployment patters:
+- Serving patters:
     - Canary
     - Green/blue
 - Monitoring:
