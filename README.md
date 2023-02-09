@@ -344,15 +344,15 @@ master-project-root-folder    #Project folder
     - Uptime: system reliability
     - Load testing: Apache Jmeter
 - [Kubernets](https://kubernetes.io/) | [Notes](https://github.com/kyaiooiayk/Kubernetes-Notes) cluster:
-    - Cloud vendors:
+    - Cloud vendors have their own application to interfeace with Kunernetes:
         - EKS by Amazon
         - AKS by Microsoft
         - GKS by Google
-    - Local machine:
+    - If you want to run Kubernets on your local machine (generally this is done to quickly test everythong is OK):
         - minikube
         - kind
         - k3s
-    - Orchestration:
+    - Other rchestration tools:
         - [Argo Workflows](https://github.com/argoproj/argo-workflows) an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 
 </details>
