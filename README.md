@@ -373,6 +373,8 @@ master-project-root-folder    #Project folder
 - 👮‍♀️ Auditability
 - What-if-tool
 - 🔐 Ensure sensitive information is deleted or protected (e.g., anonymised)
+- Encryption
+- Data governace policy as a series of step-by-step procedures
 
 </details>
 
