@@ -405,4 +405,4 @@ master-project-root-folder    #Project folder
 ***
 
 ## Other checklists
-[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) |
+[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) | [Ref#3](https://github.com/datastacktv/data-engineer-roadmap) | [Ref#4](https://github.com/igorbarinov/awesome-data-engineering#databases)
