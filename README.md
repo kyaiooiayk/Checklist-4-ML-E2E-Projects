@@ -3,6 +3,7 @@ Checklist for ML projects. An almost incomplete collections of MLOps bullet poin
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
 - Provides **links & references**
+- Provides as much as possible the available option when it comes to deployment/serving
 ***
 
 ## Striving to:
