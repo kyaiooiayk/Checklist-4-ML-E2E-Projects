@@ -1,5 +1,5 @@
 #  📋Checklist-4-ML-E2E-Projects📋
-Checklist for ML projects. An almost incomplete collections of MLOps bullet points. This list serves three purpouses:
+Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) projects. An almost incomplete collections of MLOps bullet points. This list serves three purpouses:
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
 - Provides **links & references**
@@ -158,9 +158,11 @@ master-project-root-folder    #Project folder
     - Fill in missing values via some imputation strategies. Treat your data transformation choices as hyperparameters, especially when you are not sure about them (e.g., replace with zero, mean, meadina or just drop the rows?):
         - Zero, mean or median
         - Drop row values or the entire columns if too many row values are missing
-- Features scaline:
-    - If a deep learning application this almost certaintly done
-    - If not a DL application it depends. 
+- Features scaling:
+    - If a deep learning application this is almost certaintly done. If you have two options here:
+      - Min/max scaling
+      - Mean/std scaling
+    - If not a DL application it depends. For instance model based on decision trees are insensitive to features scaling.
 - Feature engineering:
     - Discretize continuous features
     - Add transformations like: log(x), sqrt(x), x^2, etc...
@@ -176,8 +178,9 @@ master-project-root-folder    #Project folder
         - Train
         - Test: (no data snooping!)
         - Validation
-- Build an ETL (Extra, Transform & Load) pipeline
-    
+- Build an ETL/ELT (Extra, Transform & Load) pipeline:
+    - **ETL** is best used for on-premise data that needs to be structured before uploading it to a relational data warehouse. This method is typically implemented when datasets are small and there are clear metrics that a business values because large datasets will require more time to process and parameters are ideally defined before the transformation phase.
+    - **ELT** is best suited for large volumes of data and implemented in cloud environments where the large storage and computing power available enables the data lake to quickly store and transform data as needed. ELT is also more flexible when it comes to the format of data but will require more time to process data for queries since that step only happens as needed versus ETL where the data is instantly queryable after loading.
 </details>
 
 ***
