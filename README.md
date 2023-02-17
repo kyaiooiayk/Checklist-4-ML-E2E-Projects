@@ -170,14 +170,17 @@ master-project-root-folder    #Project folder
 - Dashboard:
     - Bokeh
     - Plotly
-- Data splitting:
-    - Large dataset:
+- Data splitting | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
+    - Large dataset (CV may not be necessary):
         - Train
         - Test: (no data snooping!)
-    - Small dataset:
+    - Small dataset (use CV while testing):
         - Train
         - Test: (no data snooping!)
         - Validation
+    - No data or only a handful of examples. Enough/handful means some in order to get a sense of the problem specification but too few to train an algorithm). Consider these options:
+      - A literature review
+      - Analyse what others have done may give you a sense of what’s feasible.
 - Build an ETL/ELT (Extra, Transform & Load) pipeline | [Notes](https://github.com/kyaiooiayk/ETL-and-ML-Pipelines-Notes/blob/main/README.md):
     - **ETL** is best used for on-premise data that needs to be structured before uploading it to a relational data warehouse. This method is typically implemented when datasets are small and there are clear metrics that a business values because large datasets will require more time to process and parameters are ideally defined before the transformation phase.
     - **ELT** is best suited for large volumes of data and implemented in cloud environments where the large storage and computing power available enables the data lake to quickly store and transform data as needed. ELT is also more flexible when it comes to the format of data but will require more time to process data for queries since that step only happens as needed versus ETL where the data is instantly queryable after loading.
@@ -234,7 +237,9 @@ master-project-root-folder    #Project folder
 - List the assumptions you or others have made so far.
 - Keep track of your model versions
 - Select what the feature(s) vs. target(s) are
--  🐣 Create a baseline model
+-  🐣 Is a base model available (at the beginning)?
+  - Yes, consider it and benchmark any future models against it
+  - No, create one and benchmark any future models against it
 - Keep track of your model dependencies
 - Feature selection:
     - ❓ Can a domain expert help me determine which features are relevant?
@@ -253,7 +258,8 @@ master-project-root-folder    #Project folder
         - XGBoost
         - LightGBM
     - Deep Learning:
-        - [TensorFlow]() | [KERAS]()
+        - [TensorFlow](https://www.tensorflow.org/) is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks | [Tutorials&Notes](https://github.com/kyaiooiayk/TensorFlow-TF-Notes)
+        - [KERAS](https://keras.io/) It is a wrapper over TF. Most of the model in TF1/2 are implemented in KERAS. Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides. | [Tutorials&Notes](https://github.com/kyaiooiayk/Keras-Notes)
         - [PyTorch](https://pytorch.org/)
         - [PyTorch Lightning](https://www.pytorchlightning.ai/) is built on top of ordinary (vanilla) PyTorch. The purpose of Lightning is to provide a research framework that allows for fast experimentation and scalability, which it achieves via an OOP approach that removes boilerplate and hardware-reference code.
         - [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) is a GPU/TPU-accelerated version of NumPy. It vectorises a Python function and handle all the derivative calculations on said functions. It has a JIT (Just-In-Time) component that takes your code and optimizes it for the XLA compiler, resulting in significant performance improvements over TensorFlow and PyTorch. | [Tutorials&Notes](https://github.com/kyaiooiayk/JAX-Notes)
@@ -263,8 +269,8 @@ master-project-root-folder    #Project folder
         - [AWS (Amazon Web Services)](https://aws.amazon.com/?nc2=h_lg) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/AWS)
         - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
         - [GCP (Google Cloud Platform)](https://cloud.google.com/)
-- Model CV (Cross Valisation)
-- Model hyperparameters:
+- Model CV (Cross Valisation) | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir)
+- Model hyperparameters | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
     - Methods:
         - Grid search: doable when the parameters are small 
         - Random search: preferred over random search over grid search
@@ -276,6 +282,12 @@ master-project-root-folder    #Project folder
         - [Optuna](https://optuna.org/) is an open source hyperparameter optimization framework to automate hyperparameter search. It is framework agnostic you can use it with any machine learning or deep learning framework. | [Paper](https://dl.acm.org/doi/10.1145/3292500.3330701)
     - Don'ts:
         - Once you are confident about your final model, measure its performance on the test set to estimate the generalization error. Don't tweak your model after measuring the generalization error: you would just start overfitting the test set. This is very hard in practice to enforce. Resist the temptation!
+- Model evaluation:
+  - Model is not doing well on the training set:
+    - Model has enough capacity: that’s a strong sign that the input features do not contain enough information to predict y. If you can’t improve the input features x, this problem will be hard to crack.
+      - Model does not have enough capacity: increase the capacity, this could be adding more layers or nodes in a MLP or increasin the number of trees in a gradient-boosted model
+  - Model is doing well on the training set but not the test set, there’s still hope. Plotting a learning curve (to extrapolate how performance might look with a larger dataset) and benchmarking human-level performance (HLP) can give a better sense of feasibility.
+  - Model does does well on the test set, then the question still remains open whether it will generalize to real-world data. Do extra checks.
 - Model inference:
     - on CPUs
     - on GPUs
