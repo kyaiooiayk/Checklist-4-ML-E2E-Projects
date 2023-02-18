@@ -1,9 +1,9 @@
 #  📋Checklist-4-ML-E2E-Projects📋
-Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) projects. See [here](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map) to see the same but in a mind map. An almost incomplete collections of MLOps bullet points. This list serves three purpouses:
+Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) projects. See [here](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map) to see the same but in a mind map. An almost incomplete collections of MLOps bullet points. I admit classifying all the available option is not an easy task and what you see here is not written in stone and should be considered my personal preference. This list serves the following purpouses:
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
 - Provides **links & references**
-- Provides as much as possible the available option when it comes to deployment/serving
+- Provides the complete list of **available options** along with a bried explanation
 ***
 
 ## Striving to:
@@ -15,7 +15,7 @@ Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) proj
 - Provide the original paper of the cited method
 ***
   
-## Project template: folder & contents
+## Project template: folders & contents
 
 ```diff
 master-project-root-folder    #Project folder
