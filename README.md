@@ -290,7 +290,7 @@ master-project-root-folder    #Project folder
     - Model does not have enough capacity: increase the capacity, this could be adding more layers or nodes in a MLP or increasin the number of trees in a gradient-boosted model
   - Model is doing well on the training set but not the test set, there’s still hope. Plotting a learning curve (to extrapolate how performance might look with a larger dataset) and benchmarking human-level performance (HLP) can give a better sense of feasibility.
   - Model does does well on the test set, then the question still remains open whether it will generalize to real-world data. Do extra checks.
-- Experiment tracking allows us to manage all the experiments along with their components, such as parameters, metrics, and more. It makes easier to track the evolution of your model as learn more and more about the problem. Here are some available tools:
+- Experiment tracking/monitoring allows us to manage all the experiments along with their components, such as parameters, metrics, and more. It makes easier to track the evolution of your model as learn more and more about the problem. Here are some available tools:
   - [MLFlow](https://mlflow.org/) is an open source project that offers experiment tracking and multiframe‐work support including Apache Spark, but limited workflow support. If you need a lightweight, simple way to track experiments and run simple workflows, this may be a good choice.
   - [Comet ML](https://www.comet.com/site/) 
   - [Neptune](https://neptune.ai/)
