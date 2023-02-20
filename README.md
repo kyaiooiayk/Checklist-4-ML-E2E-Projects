@@ -121,6 +121,10 @@ master-project-root-folder    #Project folder
     - ❌ No, then unsupervised learning must be used
 - Data versioning. Available tools:
     - [DVC](https://dvc.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/DVC)
+    - [DAGsHub](https://dagshub.com/)
+    - [Activeloop](https://www.activeloop.ai/)
+    - [Modelstore](https://modelstore.readthedocs.io/en/latest/)
+    - [ModelDB](https://github.com/VertaAI/modeldb/)
 - ❓ Is there a data bias?
     - ✅ Yes, take action
     - ❌ No, proceed
@@ -145,6 +149,12 @@ master-project-root-folder    #Project folder
         - 🐷 [Pig](https://pig.apache.org/) (less popular than Hive)
         -  🦌 [Impala](https://impala.apache.org/docs/build/html/topics/impala_langref.html) | [Hive vs. Impala](https://www.tutorialspoint.com/impala/impala_overview.htm)
     - Unstructured data: NoSQL
+- Data file format | [Notes](https://github.com/kyaiooiayk/Data-Format-Notes)
+  - CSV (Comma Separated Values) is a row-based file format storage.
+  - JSON (JavaScript Object Notation) is language agnostic and supports a number of data types which includes list, dictionary, string, integer, float, boolean, Null.
+  - YAML (Yet Another Markup Language) is a human-readable data-serialisation language. It is commonly used for configuration files and in applications where data is being stored or transmitted.  Both JSON and YAML are developed to provide a human-readable data interchange format
+  - Parquet is a column-based file format storage and is good for storing big data of any kind (structured data tables, images, videos, documents).
+  - XML (Extensible Markup Language)is exclusively designed to send and receive data back and forth between clients and servers.
 - Data transformation
 - EDA (Exploratory Design Analysis): explore the data to gain insights:
     - Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
