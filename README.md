@@ -314,7 +314,7 @@ master-project-root-folder    #Project folder
 - Latency vs. throughput:
     - If our application requires **low latency**, then we should deploy the model as a real-time API to provide super-fast predictions on single prediction requests over HTTPS.
      - For **less-latency-sensitive** applications that require high throughput, we should deploy our model as a batch job to perform batch predictions on large amounts of data.
-- Model serialisation (aka model persistence) / deserialisation. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation) Some of the formats used are :
+- Model serialisation (aka model persistence) / deserialisation. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. Some of the formats used are: | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
     - hdf5
     - json
     - dill
