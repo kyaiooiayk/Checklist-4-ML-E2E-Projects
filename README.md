@@ -305,7 +305,7 @@ master-project-root-folder    #Project folder
   - [MLFlow](https://mlflow.org/) is an open source project that offers experiment tracking and multiframe‐work support including Apache Spark, but limited workflow support. If you need a lightweight, simple way to track experiments and run simple workflows, this may be a good choice.
   - [Comet ML](https://www.comet.com/site/) 
   - [Neptune](https://neptune.ai/)
-  - [Weights and Biases](https://wandb.ai/site)
+  - [Weights and Biases](https://wandb.ai/site) is a developer-first MLOps platform. Build better models faster with experiment tracking, dataset versioning, and model management.
   - [TensorBoard](https://www.tensorflow.org/tensorboard)
 - Model inference:
     - on CPUs
@@ -428,10 +428,12 @@ master-project-root-folder    #Project folder
 - Training
 - Delivery
 - Monitoring: see concept drift for instance
-- Tools:
+- Tools | [Tools comparison](https://neptune.ai/blog/continuous-integration-continuous-deployment-tools-for-machine-learning):
     - [GitHub Actions](https://github.com/features/actions) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/blob/master/tutorials/GitHub_Actions.md)
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
-    - [Weights and Biases](https://wandb.ai/site) is a developer-first MLOps platform, Build better models faster with experiment tracking, dataset versioning, and model management.
+    - [CircleCI](https://circleci.com/)
+    - [Travis CI](https://www.travis-ci.com/)
+    - [GitLab](https://about.gitlab.com/) GitHub and GitLab are remote server repositories based on GIT. GitHub is a collaboration platform that helps review and manage codes remotely. GitLab is the same but is majorly focused on DevOps and CI/CD. 
 - 🤹‍♂ Orchestration tools:
     - [Kredo](https://kedro.readthedocs.io/en/stable/introduction/introduction.html) is an open-source Python framework for creating reproducible, maintainable and modular data science code. It borrows concepts from software engineering and applies them to machine-learning code; applied concepts include modularity, separation of concerns and versioning. Kedro is hosted by the LF AI & Data Foundation.
     - [ZenML](https://docs.zenml.io/getting-started/introduction) is an extensible, open-source MLOps framework to create production-ready machine learning pipelines. Built for data scientists, it has a simple, flexible syntax, is cloud- and tool-agnostic, and has interfaces/abstractions that are catered towards ML workflows.
