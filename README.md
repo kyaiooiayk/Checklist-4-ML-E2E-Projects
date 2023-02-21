@@ -346,10 +346,15 @@ master-project-root-folder    #Project folder
     - [JFrog Container Registry](https://jfrog.com/container-registry/)
     - [Google Container Registry](https://cloud.google.com/container-registry)
     - [Azure container Registry](https://azure.microsoft.com/en-in/products/container-registry/#features)
-- Deplyoing vs. serving [Ref](https://stackoverflow.com/questions/67018965/what-is-the-difference-between-deploying-and-serving-ml-model)
+- <ins>Deplyoing vs. serving [Ref](https://stackoverflow.com/questions/67018965/what-is-the-difference-between-deploying-and-serving-ml-model)</ins>
   - Deploying is the process of putting the model into the server. 
   - Serving is the process of making a model accessible from the server (for example with REST API or web sockets).
   - Both deployment and serving can have REST API (or endpoint). Deployment doesn't necessarily require a REST API (an API would be sufficient).
+- <ins>Serveless deployment</ins>. Serverless” doesn’t mean there is no server, it just means that you don’t care about the underlying infrastructure for your code and you only pay for what you use. 
+  - [AWS Lambda Functions](https://aws.amazon.com/lambda/) | [Notes&Tutorials](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/AWS/AWS_Lambda)
+  - [Google Cloud Functions](https://cloud.google.com/functions/)
+  - [Azure Functions](https://azure.microsoft.com/en-us/products/functions/)
+  - [IBM Cloud Functions](https://www.ibm.com/cloud/functions)
 - <ins>RESTful API</ins>:
     - Django
     - [[Flask](https://flask.palletsprojects.com/en/2.1.x/) | [Notes](https://github.com/kyaiooiayk/Flask-Notes)]
@@ -362,28 +367,28 @@ master-project-root-folder    #Project folder
     - [[Electron](https://www.electronjs.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Electron.md)]
     - [[Dash](https://plotly.com/building-machine-learning-web-apps-in-python/)]
     - [[Gradio](https://github.com/gradio-app/gradio)]
-- Service end point:
+- <ins>Service end point</ins>:
     - [FastAPI](https://fastapi.tiangolo.com/): fast and a good solution for testing, has limitation when it comes to clients' request workload
     - [Flask](https://flask.palletsprojects.com/en/2.2.x/): it is less complex but not as complete as Dijango
     - [Django](https://www.djangoproject.com/): for most advanced stuff
-- Public server deployment
+- <ins>Public server deployment</ins>:
     - [Heroku](https://www.heroku.com/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Heroku) - allows access directly to your GitHub account
     - [PythonAnywhere](https://www.pythonanywhere.com/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/pythonanywhere) - does not allow access directly to your GitHub account
     - [Netlify](https://www.netlify.com/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Netlify.md) - allows access directly to your GitHub account
-- Servers:
+- <ins>Servers</ins>:
     - [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) stands for Web Server Gateway Interface and is an application server that aims to provide a full stack for developing and deploying web applications and services. It is named after the Web Server Gateway Interface, which was the first plugin supported by the project.
     - [Nginx](https://www.nginx.com/) is a web server that can also be used as a reverse proxy (which provides a more robust connection handling), load balancer, mail proxy and HTTP cache.
-- Serving patters:
+- <ins>Serving patters</ins>:
     - Canary
     - Green/blue
-- Monitoring:
+- <ins>Monitoring</ins>:
     - Latency
     - Throughput
     - IO
     - Memory
     - Uptime: system reliability
     - Load testing: Apache Jmeter
-- [Kubernets](https://kubernetes.io/) | [Notes](https://github.com/kyaiooiayk/Kubernetes-Notes) cluster:
+- <ins>[Kubernets](https://kubernetes.io/) | [Notes](https://github.com/kyaiooiayk/Kubernetes-Notes) cluster</ins>:
     - Cloud vendors have their own application to interfeace with Kunernetes:
         - EKS by Amazon
         - AKS by Microsoft
