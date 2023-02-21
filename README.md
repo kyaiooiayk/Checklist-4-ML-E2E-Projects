@@ -314,19 +314,17 @@ master-project-root-folder    #Project folder
 - Latency vs. throughput:
     - If our application requires **low latency**, then we should deploy the model as a real-time API to provide super-fast predictions on single prediction requests over HTTPS.
      - For **less-latency-sensitive** applications that require high throughput, we should deploy our model as a batch job to perform batch predictions on large amounts of data.
-- Model serialisation (aka model persistence) / deserialisation. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. Some of the formats used are: | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
+- <ins>Model serialisation (aka model persistence)/deserialisation</ins>. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation) | Some of the formats used are: 
     - hdf5
-    - json
     - dill
     - joblib
     - pickle
-    - skops
-    - ONNX
-- Model optimisation:
+    - ONNX - This changes the paradigm in the sense that stores what the instruction to replicate the NN model.
+- <ins>Model optimisation</ins>:
     - Quantisation
     - Pruning
     - Teacher-student models
-- Reporting results:
+- <ins>Reporting results</ins>:
     - Tell a story with data | [Ref](https://pbs.twimg.com/media/E-C33uFWUAA2UiD?format=jpg&name=large)
     - List your assumptions and your system's limitations.
     - Explain why your solution achieves the business objective.
@@ -342,11 +340,17 @@ master-project-root-folder    #Project folder
 <summary>Expand ⬇️</summary>
 <br>
 
+- <ins>Container registry</ins>:  is a place to store container images. Hosting all the images in one stored location allows users to commit, identify and pull images when needed. There are many tools/services that can store the container images:
+    - [Docker Hub](https://hub.docker.com/)
+    - [Amazon Elastic Container Registry (ECR)](https://aws.amazon.com/ecr/)
+    - [JFrog Container Registry](https://jfrog.com/container-registry/)
+    - [Google Container Registry](https://cloud.google.com/container-registry)
+    - [Azure container Registry](https://azure.microsoft.com/en-in/products/container-registry/#features)
 - Deplyoing vs. serving [Ref](https://stackoverflow.com/questions/67018965/what-is-the-difference-between-deploying-and-serving-ml-model)
   - Deploying is the process of putting the model into the server. 
   - Serving is the process of making a model accessible from the server (for example with REST API or web sockets).
   - Both deployment and serving can have REST API (or endpoint). Deployment doesn't necessarily require a REST API (an API would be sufficient).
-- RESTful API:
+- <ins>RESTful API</ins>:
     - Django
     - [[Flask](https://flask.palletsprojects.com/en/2.1.x/) | [Notes](https://github.com/kyaiooiayk/Flask-Notes)]
     - [[Node.js]() | Notes]
