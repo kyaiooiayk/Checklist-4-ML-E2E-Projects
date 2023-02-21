@@ -204,36 +204,36 @@ master-project-root-folder    #Project folder
 <summary>Expand ⬇️</summary>
 <br>
 
-- Code release:
+- <ins>Code release</ins>:
     - Major
     - Minor
     - Patch
-- Code versionning:
+- <ins>Code versionning</ins>:
     - [GitHub](https://github.com/) | [Notes](https://github.com/kyaiooiayk/Git-Cheatsheet)
     - [GitLab](https://about.gitlab.com/) GitHub and GitLab are remote server repositories based on GIT. GitHub is a collaboration platform that helps review and manage codes remotely. GitLab is the same but is majorly focused on DevOps and CI/CD. 
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
     - [CircleCI](https://circleci.com/)
     - [Travis CI](https://www.travis-ci.com/)  
-- Linters | [Notes](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md):
+- <ins>Linters | [Notes](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md)</ins>:
     - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter.
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
-- Code optimisation
+- <ins>Code optimisation</ins>:
     - Refactoring
     - Profilers
     - Caching
-- Code testing
+- <ins>Code testing</ins>:
     - [Unittesting](https://docs.python.org/3/library/unittest.html) | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Unittesting) Unit tests point to a specific issue that requires fixing. 
     - [Functional testing](https://brightsec.com/blog/unit-testing-vs-functional-testing/) Since functional testing checks the entire application, it mainly indicates a general issue without pointing out a specific problem.
-- Code obfuscation | [Notes](https://github.com/kyaiooiayk/Python-Source-Code-Obfuscation/edit/main/README.md):
+- <ins>Code obfuscation | [Notes](https://github.com/kyaiooiayk/Python-Source-Code-Obfuscation/edit/main/README.md)</ins>:
     - [pyarmor](https://pypi.org/project/pyarmor/) - It provides full obfuscation with hex-encoding; apparently doesn’t allow partial obfuscation of variable/function names only.
     - [python-minifier](https://pypi.org/project/python-minifier/) — It minifies the code and obfuscates function/variable names. 
     - [pyminifier](https://pypi.org/project/pyminifier/) - It does a good job in obfuscating names of functions, variables, literals; can also perform hex-encoding (compression) similar as pyarmor. Problem: after obfuscation the code may contain syntax errors and not run.
     - [cython](https://cython.org/) - Cython is an optimising static compiler that takes your .py modules and translates them to high-performant C files. Resulting C files can be compiled into native binary libraries with no effort. When the compilation is done there’s no way to reverse compiled libraries back to readable Python source code. What distinguishes this option from the other is that this can be used is to make your code run faster rather than obfuscating it.
-- Code shipping:
+- <ins>Code shipping</ins>:
     - Maven : it is used to create deployment package.
     - Containersition with [Docker](https://www.docker.com/) | [Notes](https://github.com/kyaiooiayk/Docker-Notes) is the golden and widespread standard
-- Code packaging is the action of creating a package out of your python project wiht the intent to distribute it. This consists in adding the necessary files, structure and how to build the package. Further one can also upload it to the Python Package Index (PyPI). [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Packaging)
+- <ins>Code packaging</ins> is the action of creating a package out of your python project wiht the intent to distribute it. This consists in adding the necessary files, structure and how to build the package. Further one can also upload it to the Python Package Index (PyPI). [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Packaging)
     
 </details>
 
