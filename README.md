@@ -304,17 +304,17 @@ master-project-root-folder    #Project folder
     - Model does not have enough capacity: increase the capacity, this could be adding more layers or nodes in a MLP or increasin the number of trees in a gradient-boosted model
   - Model is doing well on the training set but not the test set, there’s still hope. Plotting a learning curve (to extrapolate how performance might look with a larger dataset) and benchmarking human-level performance (HLP) can give a better sense of feasibility.
   - Model does does well on the test set, then the question still remains open whether it will generalize to real-world data. Do extra checks.
-- Experiment tracking/monitoring allows us to manage all the experiments along with their components, such as parameters, metrics, and more. It makes easier to track the evolution of your model as learn more and more about the problem. Here are some available tools:
+- <ins>Experiment tracking/monitoring</ins> allows us to manage all the experiments along with their components, such as parameters, metrics, and more. It makes easier to track the evolution of your model as learn more and more about the problem. Here are some available tools:
   - [MLFlow](https://mlflow.org/) is an open source project that offers experiment tracking and multiframe‐work support including Apache Spark, but limited workflow support. If you need a lightweight, simple way to track experiments and run simple workflows, this may be a good choice.
   - [Comet ML](https://www.comet.com/site/) 
   - [Neptune](https://neptune.ai/)
   - [Weights and Biases](https://wandb.ai/site) is a developer-first MLOps platform. Build better models faster with experiment tracking, dataset versioning, and model management.
   - [TensorBoard](https://www.tensorflow.org/tensorboard)
-- Model inference:
+- <ins>Model inference:</ins>
     - on CPUs
     - on GPUs
     - on TPUs
-- Latency vs. throughput:
+- <ins>Latency vs. throughput</ins>:
     - If our application requires **low latency**, then we should deploy the model as a real-time API to provide super-fast predictions on single prediction requests over HTTPS.
      - For **less-latency-sensitive** applications that require high throughput, we should deploy our model as a batch job to perform batch predictions on large amounts of data.
 - <ins>Model serialisation (aka model persistence)/deserialisation</ins>. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation) | Some of the formats used are: 
@@ -332,7 +332,7 @@ master-project-root-folder    #Project folder
     - List your assumptions and your system's limitations.
     - Explain why your solution achieves the business objective.
     - Describe lessons learnt: what did not work is as much valuable as what did.
-- Keep in mind that your production model will likely be changed in the future, thus think retraing scheduling.
+- Keep in mind that your production model will likely be changed in the future, thus think re-trainig scheduling.
 
 </details>
 
