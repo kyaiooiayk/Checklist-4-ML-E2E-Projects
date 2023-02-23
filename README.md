@@ -430,15 +430,17 @@ master-project-root-folder    #Project folder
 
 
 ## Continuous (MLOps)
+This section is concerned with all those aspects that are repetitive in their nature. This 
 <details>
 <summary>Expand ⬇️</summary>
 <br>
 
-- Testing
-- Continuous integration is about how the project should be built and tested in various runtimes, automatically and continuously.
-- Continuous deployment is needed so that every new bit of code that passes automated testing can be released into production with no extra effort. 
-- Training
-- Delivery
+- <ins>Continuous:</ins>
+  - Testing
+  - Continuous integration is about how the project should be built and tested in various runtimes, automatically and continuously.
+  - Continuous deployment is needed so that every new bit of code that passes automated testing can be released into production with no extra effort. 
+  - Training is about re-training the model when a trigger monitoring the model's performance is activated.
+  - Delivery
 - <ins>Monitoring</ins>: systems can help give us confidence that our systems are running smoothly and, in the event of a system failure, can quickly provide appropriate context when diagnosing the root cause. Here is a list of available tools:
   - [Prometheus](https://prometheus.io/)
   - [Grafana](https://grafana.com/)
