@@ -278,7 +278,7 @@ master-project-root-folder    #Project folder
         - [PyTorch Lightning](https://www.pytorchlightning.ai/) is built on top of ordinary (vanilla) PyTorch. The purpose of Lightning is to provide a research framework that allows for fast experimentation and scalability, which it achieves via an OOP approach that removes boilerplate and hardware-reference code.
         - [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) is a GPU/TPU-accelerated version of NumPy. It vectorises a Python function and handle all the derivative calculations on said functions. It has a JIT (Just-In-Time) component that takes your code and optimizes it for the XLA compiler, resulting in significant performance improvements over TensorFlow and PyTorch. | [Tutorials&Notes](https://github.com/kyaiooiayk/JAX-Notes)
 - Model versioning. Available tools:
-    - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra) is a framework to configure complex applications. Effectively, it is used to read in configuration files.
+    - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra) is a framework to configure complex applications. Effectively, it is used to read in YMAL configuration files.
 - Model training:
     - On premesis
     - On the cloud which means using cluster machines on the cloud. **Bare-metal** cloud is a public cloud service where the customer rents dedicated hardware resources from a remote service provider, without (hence bare) any installed operating systems or virtualization infrastructure. You have three options:
