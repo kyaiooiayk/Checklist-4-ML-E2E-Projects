@@ -255,10 +255,9 @@ master-project-root-folder    #Project folder
   - Yes, consider it and benchmark any future models against it
   - No, create one and benchmark any future models against it
 - Keep track of your model dependencies
-- Feature selection:
+- <ins>Feature selection</ins>:
     - ❓ Can a domain expert help me determine which features are relevant?
     - Let the model decide which feature is important; after you can remove it to make the model more efficient
-- Feature engineering
 - How should performance be measured? This means chooseing the model metrics (Not model objective function and not necessarily KPIs!)
 - Is the performance measure aligned with the business objective?
     - ✅ Yes, non techical people / higher level managment will be able to follow the development
@@ -268,9 +267,10 @@ master-project-root-folder    #Project folder
     - Second scenario: there are much less SOTA options and these are expesnive to run. This is especially true for DL model. One option would be to concentrate on one of them.
 - <ins>Choose a framework</ins>:
     - Non Deep Learning:
-        - Scikit-Learn
+        - [Scikit-Learn](https://scikit-learn.org/stable/#)
         - XGBoost
         - LightGBM
+        - [CatBoost](https://catboost.ai/) is an open-source software library developed by Yandex. It provides a gradient boosting framework which among other features attempts to solve for Categorical features using a permutation driven alternative compared to the classical algorithm.
     - Deep Learning:
         - [TensorFlow](https://www.tensorflow.org/) is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks | [Tutorials&Notes](https://github.com/kyaiooiayk/TensorFlow-TF-Notes)
         - [KERAS](https://keras.io/) It is a wrapper over TF. Most of the model in TF1/2 are implemented in KERAS. Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has extensive documentation and developer guides. | [Tutorials&Notes](https://github.com/kyaiooiayk/Keras-Notes)
