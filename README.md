@@ -174,14 +174,14 @@ master-project-root-folder    #Project folder
       - Min/max scaling
       - Mean/std scaling
     - If not a DL application it depends. For instance model based on decision trees are insensitive to features scaling.
-- Feature engineering:
+- <ins>Feature engineering</ins> | [Notes](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes):
     - Discretize continuous features
     - Add transformations like: log(x), sqrt(x), x^2, etc...
     - Aggregate features into common bin
-- Dashboard:
+- <ins>Dashboard</ins>:
     - Bokeh
     - Plotly
-- Data splitting | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
+- <ins>Data splitting</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
     - Large dataset (CV may not be necessary):
         - Train
         - Test: (no data snooping!)
