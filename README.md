@@ -263,10 +263,10 @@ master-project-root-folder    #Project folder
 - Is the performance measure aligned with the business objective?
     - ✅ Yes, non techical people / higher level managment will be able to follow the development
     - ❌ No, then ask why? It is fine, but it necessay to find a proxy to link technical and business metrics
-- Choose a model(s)-
+- <ins>Choose a model(s)</ins>:
     - First scenario: there are plenty of SOTA options and these are cheap to run. One option would be to explore many different models and short-list the best ones.
     - Second scenario: there are much less SOTA options and these are expesnive to run. This is especially true for DL model. One option would be to concentrate on one of them.
-- Choose a framework:
+- <ins>Choose a framework</ins>:
     - Non Deep Learning:
         - Scikit-Learn
         - XGBoost
@@ -277,16 +277,16 @@ master-project-root-folder    #Project folder
         - [PyTorch](https://pytorch.org/)
         - [PyTorch Lightning](https://www.pytorchlightning.ai/) is built on top of ordinary (vanilla) PyTorch. The purpose of Lightning is to provide a research framework that allows for fast experimentation and scalability, which it achieves via an OOP approach that removes boilerplate and hardware-reference code.
         - [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) is a GPU/TPU-accelerated version of NumPy. It vectorises a Python function and handle all the derivative calculations on said functions. It has a JIT (Just-In-Time) component that takes your code and optimizes it for the XLA compiler, resulting in significant performance improvements over TensorFlow and PyTorch. | [Tutorials&Notes](https://github.com/kyaiooiayk/JAX-Notes)
-- Model versioning. Available tools:
+- <ins>Model versioning</ins>. Available tools:
     - [Hydra](https://hydra.cc/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/VCS/Hydra) is a framework to configure complex applications. Effectively, it is used to read in YMAL configuration files.
-- Model training:
+- <ins>Model training</ins>:
     - On premesis
     - On the cloud which means using cluster machines on the cloud. **Bare-metal** cloud is a public cloud service where the customer rents dedicated hardware resources from a remote service provider, without (hence bare) any installed operating systems or virtualization infrastructure. You have three options:
         - [AWS (Amazon Web Services)](https://aws.amazon.com/?nc2=h_lg) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/AWS)
         - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
         - [GCP (Google Cloud Platform)](https://cloud.google.com/)
-- Model CV (Cross Valisation) | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir)
-- Model hyperparameters | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
+- <ins>Model CV (Cross Valisation)</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir)
+- <ins>Model hyperparameters</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
     - Methods:
         - Grid search: doable when the parameters are small 
         - Random search: preferred over random search over grid search
@@ -298,7 +298,7 @@ master-project-root-folder    #Project folder
         - [Optuna](https://optuna.org/) is an open source hyperparameter optimization framework to automate hyperparameter search. It is framework agnostic you can use it with any machine learning or deep learning framework. | [Paper](https://dl.acm.org/doi/10.1145/3292500.3330701)
     - Don'ts:
         - Once you are confident about your final model, measure its performance on the test set to estimate the generalization error. Don't tweak your model after measuring the generalization error: you would just start overfitting the test set. This is very hard in practice to enforce. Resist the temptation!
-- Model evaluation:
+- <ins>Model evaluation</ins>:
   - Model is not doing well on the training set:
     - Model has enough capacity: that’s a strong sign that the input features do not contain enough information to predict y. If you can’t improve the input features x, this problem will be hard to crack.
     - Model does not have enough capacity: increase the capacity, this could be adding more layers or nodes in a MLP or increasin the number of trees in a gradient-boosted model
@@ -322,11 +322,12 @@ master-project-root-folder    #Project folder
     - dill
     - joblib
     - pickle
-    - [ONNX](https://onnx.ai/) - This changes the paradigm in the sense that it aims stores what the instructions to replicate the NN model. This allows to train your model in PT and run inference on TF. Thus, ONNX is an open file format to store (trained) machine learning models/pipelines containing sufficient detail (regarding data types etc.) to move from one platform to another. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
+    - [ONNX](https://onnx.ai/) changes the paradigm in the sense that it aims to store the instructions to replicate the NN model. This allows to train your model in PT and run inference on TF. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
 - <ins>Model optimisation</ins>:
     - Quantisation
     - Pruning
     - Teacher-student models
+    - [ONNX](https://onnx.ai/) is an open file format to store (trained) machine learning models/pipelines containing sufficient detail (regarding data types etc.) to move from one platform to another. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
 - <ins>Reporting results</ins>:
     - Tell a story with data | [Ref](https://pbs.twimg.com/media/E-C33uFWUAA2UiD?format=jpg&name=large)
     - List your assumptions and your system's limitations.
@@ -397,9 +398,9 @@ master-project-root-folder    #Project folder
         - AKS by Microsoft
         - GKS by Google
     - If you want to run Kubernets on your local machine (generally this is done to quickly test everythong is OK):
-        - minikube
-        - kind
-        - k3s
+        - [minikube](https://minikube.sigs.k8s.io/docs/)
+        - [kind](https://kind.sigs.k8s.io/)
+        - [k3s](https://k3s.io/) 
     - Other rchestration tools:
         - [Argo Workflows](https://github.com/argoproj/argo-workflows) an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 
