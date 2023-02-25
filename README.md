@@ -322,7 +322,7 @@ master-project-root-folder    #Project folder
     - dill
     - joblib
     - pickle
-    - [ONNX](https://onnx.ai/) - This changes the paradigm in the sense that it aims stores what the instructions to replicate the NN model. This allows to train your model in PT and run inference on TF. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
+    - [ONNX](https://onnx.ai/) - This changes the paradigm in the sense that it aims stores what the instructions to replicate the NN model. This allows to train your model in PT and run inference on TF. Thus, ONNX is an open file format to store (trained) machine learning models/pipelines containing sufficient detail (regarding data types etc.) to move from one platform to another. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
 - <ins>Model optimisation</ins>:
     - Quantisation
     - Pruning
