@@ -83,12 +83,16 @@ master-project-root-folder    #Project folder
     - [Jira](https://www.atlassian.com/software/jira)
     - [Confluence](https://www.atlassian.com/software/confluence) | [Jira vs. Confluence](https://elements-apps.com/blog/jira-and-confluence/)
     - [Trello](https://trello.com/home)
-- Choose btw these different 3 scenarios (do not underestimate the importance of this, and this is the reason why it is under scoping and not under data or modelling section):
+- <ins>Choose btw these different 3 scenarios</ins> (do not underestimate the importance of this, and this is the reason why it is under scoping and not under data or modelling section):
     - **Data driven**: means the creation of technologies, skills, and an environment by ingesting a large amount of data. This does not mean data centric.
     - **Data centric**: involves systematically altering/improving datasets in order to increase the accuracy of your ML applications.
     - **Model centric**: keep the data the same, and you only improve the code/model architecture. What happens when new data is added or changed? The risk of having a bias-to-that-batch-of-data model is very high. 
     - [Model centric vs. data centric](https://neptune.ai/blog/data-centric-vs-model-centric-machine-learning)
 - [Here is a list of lessons learnt](https://github.com/kyaiooiayk/Awesome-ML-Projects/blob/main/README.md#lessons-learnt)
+- <ins>Pipeline types:</ins>
+  - Data pipeline
+  - Model pipeline
+  - Serving pipeline
 </details>
 
 ## Data
