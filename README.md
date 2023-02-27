@@ -88,6 +88,7 @@ master-project-root-folder    #Project folder
     - **Data centric**: involves systematically altering/improving datasets in order to increase the accuracy of your ML applications.
     - **Model centric**: keep the data the same, and you only improve the code/model architecture. What happens when new data is added or changed? The risk of having a bias-to-that-batch-of-data model is very high. 
     - [Model centric vs. data centric](https://neptune.ai/blog/data-centric-vs-model-centric-machine-learning)
+- [Here is a list of lessons learnt](https://github.com/kyaiooiayk/Awesome-ML-Projects/blob/main/README.md#lessons-learnt)
 </details>
 
 ## Data
