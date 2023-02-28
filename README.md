@@ -2,7 +2,7 @@
 Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) projects. See [here](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map) to see the same but in a mind map. An almost incomplete collections of MLOps bullet points. I admit classifying all the available option is not an easy task and what you see here is not written in stone and should be considered my personal preference. This list serves the following purpouses:
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
-- Provides **links & references**
+- Provides **links & references**https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code%20refactoring.ipynb
 - Provides the complete list of **available options** along with a brief explanation
 - Provides a check list to follow going from a simple PoC (Proof of Concept), to MVP (Minimum Viable Product) and finally to a fully productionaised ML-based solution
 ***
@@ -227,9 +227,9 @@ master-project-root-folder    #Project folder
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
 - <ins>Code optimisation</ins>:
-    - Refactoring
-    - Profilers
-    - Caching
+    - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Tutorials](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code%20refactoring.ipynb)
+    - **Profilers** are tools  that aim to assess the space or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls. | [Notes on how to profile parallel jobs](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials/Profiling_SKLearn_Parallel_Jobs) | [Notes on how to profile on jupyter notebook](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Code_profiling.ipynb)
+    - **Caching** consists in keeping recently (or frequently) used data in a memory location that has cheap and fast access for repeated queries. | [Notes](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Caching.ipynb)
 - <ins>Code testing</ins>:
     - [Unittesting](https://docs.python.org/3/library/unittest.html) | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Unittesting) Unit tests point to a specific issue that requires fixing. 
     - [Doctest](https://docs.python.org/3/library/doctest.html#module-doctest) | is a module considered easier to use than the unittest, though the latter is more suitable for more complex tests. doctest is a test framework that comes prepackaged with Python. | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Doctest)
