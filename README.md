@@ -263,7 +263,9 @@ master-project-root-folder    #Project folder
 - <ins>Feature selection</ins>:
     - ❓ Can a domain expert help me determine which features are relevant?
     - Let the model decide which feature is important; after you can remove it to make the model more efficient
-- How should performance be measured? This means chooseing the model metrics (Not model objective function and not necessarily KPIs!)
+- How should performance be measured? This means choosing the model metrics (Not model objective function and not necessarily KPIs!)
+  - Objective function is a function you ae trying to minimise via some optimisation algorithm
+  - Model metrics can be very different from what the objective function
 - Is the performance measure aligned with the business objective?
     - ✅ Yes, non techical people / higher level managment will be able to follow the development
     - ❌ No, then ask why? It is fine, but it necessay to find a proxy to link technical and business metrics
