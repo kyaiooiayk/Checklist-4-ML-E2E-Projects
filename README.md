@@ -3,7 +3,8 @@ Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) proj
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
 - Provides **links & references**
-- Provides the complete list of **available options** along with a bried explanation
+- Provides the complete list of **available options** along with a brief explanation
+- Provides a check list to follow going from a simple PoC (Proof of Concept), to MVP (Minimum Viable Product) and finally to a fully productionaised ML-based solution
 ***
 
 ## Striving to:
