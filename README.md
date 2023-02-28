@@ -232,7 +232,10 @@ master-project-root-folder    #Project folder
     - Caching
 - <ins>Code testing</ins>:
     - [Unittesting](https://docs.python.org/3/library/unittest.html) | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Unittesting) Unit tests point to a specific issue that requires fixing. 
-    - [Functional testing](https://brightsec.com/blog/unit-testing-vs-functional-testing/) Since functional testing checks the entire application, it mainly indicates a general issue without pointing out a specific problem.
+    - [Doctest](https://docs.python.org/3/library/doctest.html#module-doctest) | is a module considered easier to use than the unittest, though the latter is more suitable for more complex tests. doctest is a test framework that comes prepackaged with Python. | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Doctest)
+    - [Functional testing](https://brightsec.com/blog/unit-testing-vs-functional-testing/) checks the entire application thus, it mainly indicates a general issue without pointing out a specific problem.
+    - TDD (Test Driven Development) is a software development method where you define tests before you start coding the actual source code.
+ | [Notes](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Test-driven%20Development%20(TDD)/README.md)
 - <ins>Code obfuscation | [Notes](https://github.com/kyaiooiayk/Python-Source-Code-Obfuscation/edit/main/README.md)</ins>:
     - [pyarmor](https://pypi.org/project/pyarmor/) - It provides full obfuscation with hex-encoding; apparently doesn’t allow partial obfuscation of variable/function names only.
     - [python-minifier](https://pypi.org/project/python-minifier/) — It minifies the code and obfuscates function/variable names. 
