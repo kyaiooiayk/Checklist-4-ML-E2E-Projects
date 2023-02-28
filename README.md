@@ -317,6 +317,9 @@ master-project-root-folder    #Project folder
   - [Neptune](https://neptune.ai/)
   - [Weights and Biases](https://wandb.ai/site) is a developer-first MLOps platform. Build better models faster with experiment tracking, dataset versioning, and model management.
   - [TensorBoard](https://www.tensorflow.org/tensorboard)
+- <ins>Modell complexity</ins>: O(N^3) | O(LogN)| O(N) | [Notes](https://drive.google.com/drive/u/1/folders/1-G4Ct4iMPd7T2W-gW75eBKtuiJ37hyJj) | [Tutorials](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Algorithms)
+  - Space cmoplexity: storage and this generally referr to the RAM requied
+  - Time complexity: this is generally related to metric such as latency
 - <ins>Model inference:</ins>
     - on CPUs
     - on GPUs
