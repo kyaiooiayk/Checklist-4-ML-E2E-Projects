@@ -321,6 +321,11 @@ master-project-root-folder    #Project folder
     - on CPUs
     - on GPUs
     - on TPUs
+- <ins>Business requirements</ins>:
+  - Load
+  - Latency
+  - Throughput
+  - Storage
 - <ins>Latency vs. throughput</ins>:
     - If our application requires **low latency**, then we should deploy the model as a real-time API to provide super-fast predictions on single prediction requests over HTTPS.
      - For **less-latency-sensitive** applications that require high throughput, we should deploy our model as a batch job to perform batch predictions on large amounts of data.
