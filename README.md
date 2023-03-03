@@ -2,7 +2,7 @@
 Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) projects. See [here](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map) to see the same but in a mind map. An almost incomplete collections of MLOps bullet points. I admit classifying all the available option is not an easy task and what you see here is not written in stone and should be considered my personal preference. This list serves the following purpouses:
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
-- Provides **links & references**https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code%20refactoring.ipynb
+- Provides **links & references**
 - Provides the complete list of **available options** along with a brief explanation
 - Provides a check list to follow going from a simple PoC (Proof of Concept), to MVP (Minimum Viable Product) and finally to a fully productionaised ML-based solution
 ***
@@ -452,7 +452,7 @@ master-project-root-folder    #Project folder
 
 
 ## Continuous (MLOps)
-This section is concerned with all those aspects that are repetitive in their nature. This 
+This section is concerned with all those aspects that are repetitive in their nature and help deliver and maintain a ML-based solution. 
 <details>
 <summary>Expand ⬇️</summary>
 <br>
