@@ -211,7 +211,7 @@ master-project-root-folder    #Project folder
 <br>
 
 - <ins>OOP (Object-Oriented Programming)</ins>:
-  - Inheritance vs. composition: is-a vs. has-a relationship | [Tutorial](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Composition%20vs.%20inheritance.ipynb)
+  - Inheritance vs. composition: 'is-a' vs. 'has-a' relationship | [Tutorial](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Composition%20vs.%20inheritance.ipynb)
 - <ins>Code release</ins>:
     - Major
     - Minor
