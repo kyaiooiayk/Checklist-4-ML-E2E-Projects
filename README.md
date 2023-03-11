@@ -299,7 +299,7 @@ master-project-root-folder    #Project folder
         - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
         - [GCP (Google Cloud Platform)](https://cloud.google.com/)
 - <ins>Model CV (Cross Valisation)</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir) | [Paper](https://arxiv.org/pdf/2108.02497.pdf)
-- <ins>Model hyperparameters</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir) | [Paper](https://arxiv.org/pdf/2108.02497.pdf):
+- <ins>Model hyperparameters</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir) | [Paper](https://arxiv.org/pdf/2003.05689.pdf):
     - Methods:
         - Grid search: doable when the parameters are small 
         - Random search: preferred over random search over grid search
