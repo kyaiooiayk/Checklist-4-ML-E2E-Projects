@@ -298,8 +298,8 @@ master-project-root-folder    #Project folder
         - [AWS (Amazon Web Services)](https://aws.amazon.com/?nc2=h_lg) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/AWS)
         - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
         - [GCP (Google Cloud Platform)](https://cloud.google.com/)
-- <ins>Model CV (Cross Valisation)</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir)
-- <ins>Model hyperparameters</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir):
+- <ins>Model CV (Cross Valisation)</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir) | [Paper](https://arxiv.org/pdf/2108.02497.pdf)
+- <ins>Model hyperparameters</ins> | [Notes](https://drive.google.com/drive/u/1/folders/1flGUtgLDQsC3FyK9Nm-aafoSEDMNj5Ir) | [Paper](https://arxiv.org/pdf/2108.02497.pdf):
     - Methods:
         - Grid search: doable when the parameters are small 
         - Random search: preferred over random search over grid search
@@ -311,7 +311,7 @@ master-project-root-folder    #Project folder
         - [Optuna](https://optuna.org/) is an open source hyperparameter optimization framework to automate hyperparameter search. It is framework agnostic you can use it with any machine learning or deep learning framework. | [Paper](https://dl.acm.org/doi/10.1145/3292500.3330701)
     - Don'ts:
         - Once you are confident about your final model, measure its performance on the test set to estimate the generalization error. Don't tweak your model after measuring the generalization error: you would just start overfitting the test set. This is very hard in practice to enforce. Resist the temptation!
-- <ins>Model evaluation</ins>:
+- <ins>Model evaluation</ins> | [Article](https://arxiv.org/pdf/2108.02497.pdf):
   - Model is not doing well on the training set:
     - Model has enough capacity: that’s a strong sign that the input features do not contain enough information to predict y. If you can’t improve the input features x, this problem will be hard to crack.
     - Model does not have enough capacity: increase the capacity, this could be adding more layers or nodes in a MLP or increasin the number of trees in a gradient-boosted model
