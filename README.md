@@ -484,4 +484,4 @@ This section is concerned with all those aspects that are repetitive in their na
 ***
 
 ## Other checklists
-[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) | [Ref#3](https://github.com/datastacktv/data-engineer-roadmap) | [Ref#4](https://github.com/igorbarinov/awesome-data-engineering#databases)
+[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) | [Ref#3](https://github.com/datastacktv/data-engineer-roadmap) | [Ref#4](https://github.com/igorbarinov/awesome-data-engineering#databases) | [awesome-production-machine-learning](https://github.com/zhimin-z/awesome-production-machine-learning)
