@@ -323,9 +323,15 @@ master-project-root-folder    #Project folder
   - [Neptune](https://neptune.ai/)
   - [Weights and Biases](https://wandb.ai/site) is a developer-first MLOps platform. Build better models faster with experiment tracking, dataset versioning, and model management.
   - [TensorBoard](https://www.tensorflow.org/tensorboard)
-- <ins>Modell complexity</ins>: O(N^3) | O(LogN)| O(N) | [Notes](https://drive.google.com/drive/u/1/folders/1-G4Ct4iMPd7T2W-gW75eBKtuiJ37hyJj) | [Tutorials](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Algorithms)
+- <ins>Modell complexity</ins>: O(N^3) | O(LogN) | O(N) | [Notes](https://drive.google.com/drive/u/1/folders/1-G4Ct4iMPd7T2W-gW75eBKtuiJ37hyJj) | [Tutorials](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Algorithms)
   - Space cmoplexity: storage and this generally referr to the RAM requied
   - Time complexity: this is generally related to metric such as latency
+- <ins>Model selection:</ins> (essentially what if two models are indistringuishable from an accuracy PoC) | [Article](https://arxiv.org/pdf/1811.12808.pdf):
+  - Check cost to train
+  - Check which one is the simplest to understand
+  - Check which one is the simplest to deploy
+  - Check which one is the most robust
+  - Give a tolerance also to metrics, essentially which are the  extrema within which two models are essentially the same from a pure metrics PoV?
 - <ins>Model inference:</ins>
     - on CPUs
     - on GPUs
