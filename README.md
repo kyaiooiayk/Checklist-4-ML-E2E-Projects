@@ -52,7 +52,7 @@ master-project-root-folder    #Project folder
 5. [Deployment](#deployment)
 6. [Responsible AI](#responsabile-ai)
 7. [Continuous (MLOps)](#continuous-mlops)
-8. [What a Data Scientist about MLOps](#what-a-data-scientist-about-mlops)
+8. [What a Data Scientist about MLOps](#what-a-data-scientist-should-know-about-mlops)
 ***
 
 ## Scoping (Project Managment)
@@ -489,21 +489,23 @@ This section is concerned with all those aspects that are repetitive in their na
 
 ***
 
-## What a Data Scientist about MLOps
+## What a Data Scientist should know about MLOps
+
 <details>
 <summary>Expand ⬇️</summary>
 <br>
-  
+
+This is a super compressed list that should be used as a guidance only.
 - Version Control
 - CI/CD
-- Dev, UAT, PROD
-- Cloud Compute (AWS, GCP, Azure)
+- Testing can be separated into [4 different stages](https://www.linkedin.com/pulse/qa-testing-what-dev-sit-uat-prod-kavitha-mandli/?trk=public_profile_article_view) — DEV, SIT, UAT User Acceptance Testing) and PROD
+- Major cloud computing provide (AWS, GCP, Azure)
 - Batch Orchestration (Airflow)
 - Load Balancer
-- REST API Frameworks (Flask, Django, FastAPI)
-- Non-Relational & Relational Databases
-- Real-Time Processing (Spark, Kafka)n
-- Containerization: Kubernetes | [Notes](), Docker | [Notes]()
+- REST API Frameworks: Flask | [Notes](https://github.com/kyaiooiayk/Flask-Notes) , Django, FastAPI | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/FastAPI)
+- Non-Relational & Relational Databases | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations)
+- Real-Time Processing (Spark, Kafka)
+- Containerization: Kubernetes | [Notes](https://github.com/kyaiooiayk/Kubernetes-Notes), Docker | [Notes](https://github.com/kyaiooiayk/Docker-Notes)
 </details>
 
 ***
