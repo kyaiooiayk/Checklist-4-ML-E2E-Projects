@@ -52,7 +52,7 @@ master-project-root-folder    #Project folder
 5. [Deployment](#deployment)
 6. [Responsible AI](#responsabile-ai)
 7. [Continuous (MLOps)](#continuous-mlops)
-8. [What a Data Scientist about MLOps]()
+8. [What a Data Scientist about MLOps](#what-a-data-scientist-about-mlops)
 ***
 
 ## Scoping (Project Managment)
@@ -493,16 +493,17 @@ This section is concerned with all those aspects that are repetitive in their na
 <details>
 <summary>Expand ⬇️</summary>
 <br>
-🔹 Version Control
-🔹 CI/CD
-🔹 Dev, UAT, PROD
-🔹Cloud Compute (AWS, GCP, Azure)
-🔹 Batch Orchestration (Airflow)
-🔹 Load Balancer
-🔹 REST API Frameworks (Flask, Django, FastAPI)
-🔹 Non-Relational & Relational Databases
-🔹 Real-Time Processing (Spark, Kafka)
-🔹 Containerization (Kubernetes, Docker)
+  
+- Version Control
+- CI/CD
+- Dev, UAT, PROD
+- Cloud Compute (AWS, GCP, Azure)
+- Batch Orchestration (Airflow)
+- Load Balancer
+- REST API Frameworks (Flask, Django, FastAPI)
+- Non-Relational & Relational Databases
+- Real-Time Processing (Spark, Kafka)n
+- Containerization: Kubernetes | [Notes](), Docker | [Notes]()
 </details>
 
 ***
