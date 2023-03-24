@@ -165,9 +165,9 @@ master-project-root-folder    #Project folder
   - XML (Extensible Markup Language)is exclusively designed to send and receive data back and forth between clients and servers.
 - Data transformation
 - What is EDA?
-  - Explore the data to gain insights
-  - Identify the feasibility of the project
-  - Craft a story 
+  - Explore the data to gain insights: Do I have the right signals for the model?
+  - Identify the feasibility of the project: Is it possible to deliver a solution using the data I have?
+  - Craft a story: Can I reveal useful patterns in the data to the stakeholder?
 - What to do in a EDA (Exploratory Design Analysis)?
     - Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
     - % of missing values
