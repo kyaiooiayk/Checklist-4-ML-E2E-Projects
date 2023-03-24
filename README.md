@@ -186,7 +186,7 @@ master-project-root-folder    #Project folder
       - Min/max scaling
       - Mean/std scaling
     - If not a DL application it depends. For instance model based on decision trees are insensitive to features scaling.
-- <ins>Feature engineering</ins> | [Notes](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes):
+- <ins>Feature engineering</ins> | [Notes](https://drive.google.com/drive/u/2/folders/1ABSeXMUvG-AbFcxvFxJ0J0xpFDYUuA21) | [Tutorials](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes):
     - Discretize continuous features
     - Add transformations like: log(x), sqrt(x), x^2, etc...
     - Aggregate features into common bin
