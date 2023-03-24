@@ -164,7 +164,11 @@ master-project-root-folder    #Project folder
   - Parquet is a column-based file format storage and is good for storing big data of any kind (structured data tables, images, videos, documents).
   - XML (Extensible Markup Language)is exclusively designed to send and receive data back and forth between clients and servers.
 - Data transformation
-- EDA (Exploratory Design Analysis): explore the data to gain insights:
+- What is EDA?
+  - Explore the data to gain insights
+  - Identify the feasibility of the project
+  - Craft a story 
+- What to do in a EDA (Exploratory Design Analysis)?
     - Type (categorical, int/float, bounded/unbounded, text, structured, etc.)
     - % of missing values
     - Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
