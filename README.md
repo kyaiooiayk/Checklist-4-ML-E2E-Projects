@@ -91,6 +91,7 @@ master-project-root-folder    #Project folder
     - **Model centric**: keep the data the same, and you only improve the code/model architecture. What happens when new data is added or changed? The risk of having a bias-to-that-batch-of-data model is very high. 
     - [Model centric vs. data centric](https://neptune.ai/blog/data-centric-vs-model-centric-machine-learning)
 - [Here is a list of lessons learnt](https://github.com/kyaiooiayk/Awesome-ML-Projects/blob/main/README.md#lessons-learnt)
+- ❓ Batch vs. real-time inference?
 - <ins>Pipeline types:</ins>
   - Data pipeline
   - Model pipeline
@@ -495,7 +496,7 @@ This section is concerned with all those aspects that are repetitive in their na
 <summary>Expand ⬇️</summary>
 <br>
 
-This is a super compressed list that should be used as a guidance only.
+This is a super compressed list.
 - Version Control
 - CI/CD
 - Testing can be separated into [4 different stages](https://www.linkedin.com/pulse/qa-testing-what-dev-sit-uat-prod-kavitha-mandli/?trk=public_profile_article_view) — DEV, SIT, UAT User Acceptance Testing) and PROD
