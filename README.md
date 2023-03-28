@@ -216,6 +216,7 @@ master-project-root-folder    #Project folder
 <summary>Expand ⬇️</summary>
 <br>
 
+- [DRY](https://www.earthdatascience.org/courses/earth-analytics/automate-science-workflows/write-efficient-code-for-science-r/) - Don't repeat yourself. If you find yourself writing the same code more than twice. Modularize it and save it in a repo, for yourself in the next project and colleagues.
 - <ins>OOP (Object-Oriented Programming)</ins>:
   - Inheritance vs. composition: 'is-a' vs. 'has-a' relationship | [Tutorial](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Composition%20vs.%20inheritance.ipynb)
 - <ins>Code release</ins>:
