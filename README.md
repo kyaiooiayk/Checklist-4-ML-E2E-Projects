@@ -266,7 +266,12 @@ master-project-root-folder    #Project folder
 - ❓ How should you frame this problem supervised/unsupervised)?
 - ❓ How is the data coming in: online/offline?
 - Get a feeling of what the SOTA (State Of The Art)
-- List the assumptions you or others have made so far.
+- List the assumptions you or others have made so far
+- <ins>Although this checklist is heavily focused on ML-based model, consider the following</ins>:
+  - Build a heuristic model. This can be used as a back-up solution to fall to and an easy one to explain.
+  - Build a statistical model. Although, this is said not to scale well for large data, there is still room for some experimentation.
+  - Buil a ML model. Yes, I am aware of the fact that some ML solution are simply best in class (see CV) and building other model is simple not worth your time!
+  - Build a hybrid model if possible. Reality is never black and white, it's a mix!
 - Keep track of your model versions
 - Select what the feature(s) vs. target(s) are
 -  🐣 Is a base model available (at the beginning)?
