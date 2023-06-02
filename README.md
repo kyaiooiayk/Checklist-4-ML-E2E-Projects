@@ -516,7 +516,7 @@ This is a super compressed list.
 - REST API Frameworks: Flask | [Notes](https://github.com/kyaiooiayk/Flask-Notes) , Django, FastAPI | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/FastAPI)
 - Non-Relational & Relational Databases | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations)
 - Real-Time Processing (Spark, Kafka)
-- Containerization: Kubernetes | [Notes](https://github.com/kyaiooiayk/Kubernetes-Notes), Docker | [Notes](https://github.com/kyaiooiayk/Docker-Notes)
+- Containerisation: Kubernetes | [Notes](https://github.com/kyaiooiayk/Kubernetes-Notes), Docker | [Notes](https://github.com/kyaiooiayk/Docker-Notes)
 </details>
 
 ***
