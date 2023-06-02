@@ -52,7 +52,7 @@ master-project-root-folder    #Project folder
 5. [Deployment](#deployment)
 6. [Responsible AI](#responsabile-ai)
 7. [Continuous (MLOps)](#continuous-mlops)
-8. [What a Data Scientist about MLOps](#what-a-data-scientist-should-know-about-mlops)
+8. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
 ***
 
 ## Scoping (Project Managment)
