@@ -229,7 +229,17 @@ master-project-root-folder    #Project folder
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
     - [CircleCI](https://circleci.com/)
     - [Travis CI](https://www.travis-ci.com/)  
-- <ins>Linters | [Notes](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md)</ins>:
+- <ins>Linters | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
+    - Pylint
+    - Pyflakes
+    - autopep8
+    - Bandit
+    - Prospector
+    - Pylama
+    - Pyroma
+    - Mypy
+    - Radon
+    - mccabe 
     - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter.
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
