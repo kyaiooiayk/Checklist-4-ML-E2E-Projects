@@ -211,7 +211,7 @@ master-project-root-folder    #Project folder
 
 ***
 
-## Programming (focused on python)
+## 🧑‍💻️Programming (focused on python)
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -237,13 +237,13 @@ master-project-root-folder    #Project folder
     - Prospector
     - Pylama
     - Pyroma
-    - Mypy
+    - [Mypy](https://mypy.readthedocs.io/en/stable/) is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. 
     - Radon
     - mccabe 
     - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter.
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
-    - ⭐️[Ruff](https://beta.ruff.rs/docs/) An extremely fast Python linter, written in Rust.Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
+    - ⭐️[Ruff](https://beta.ruff.rs/docs/) An extremely fast Python linter, written in Rust. Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
 - <ins>Code optimisation</ins>:
     - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Tutorials](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code%20refactoring.ipynb)
     - **Profilers** are tools  that aim to assess the space or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls. | [Notes on how to profile parallel jobs](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials/Profiling_SKLearn_Parallel_Jobs) | [Notes on how to profile on jupyter notebook](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Code_profiling.ipynb)
