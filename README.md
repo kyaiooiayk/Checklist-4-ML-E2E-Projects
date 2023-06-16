@@ -229,7 +229,7 @@ master-project-root-folder    #Project folder
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
     - [CircleCI](https://circleci.com/)
     - [Travis CI](https://www.travis-ci.com/)  
-- <ins>Linters | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
+- <ins>Linters & Formatter | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
     - Pylint
     - Pyflakes
     - autopep8
@@ -243,6 +243,7 @@ master-project-root-folder    #Project folder
     - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter.
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
+    - ⭐️[Ruff](https://beta.ruff.rs/docs/) An extremely fast Python linter, written in Rust.Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
 - <ins>Code optimisation</ins>:
     - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Tutorials](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code%20refactoring.ipynb)
     - **Profilers** are tools  that aim to assess the space or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls. | [Notes on how to profile parallel jobs](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials/Profiling_SKLearn_Parallel_Jobs) | [Notes on how to profile on jupyter notebook](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Code_profiling.ipynb)
