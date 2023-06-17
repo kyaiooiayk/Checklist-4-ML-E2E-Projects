@@ -228,7 +228,11 @@ master-project-root-folder    #Project folder
     - [GitLab](https://about.gitlab.com/) GitHub and GitLab are remote server repositories based on GIT. GitHub is a collaboration platform that helps review and manage codes remotely. GitLab is the same but is majorly focused on DevOps and CI/CD. 
     - [Jenkins](https://www.jenkins.io/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Jenkins)
     - [CircleCI](https://circleci.com/)
-    - [Travis CI](https://www.travis-ci.com/)  
+    - [Travis CI](https://www.travis-ci.com/)
+- <ins>Production-grade code</ins> | [Notes](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Production-grade%20code):
+    - **Factory Pattern** is used to decouple data IO, or in other words the data sources (SQL, pandas etc ..)
+    - **Strategy Pattern** is used to decouple algorithms.
+    - **Adapter Pattern** is used to decouple external services.  
 - <ins>Linters & Formatter | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
     - Pylint
     - Pyflakes
