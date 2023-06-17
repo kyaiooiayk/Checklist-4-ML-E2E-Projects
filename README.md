@@ -211,7 +211,7 @@ master-project-root-folder    #Project folder
 
 ***
 
-## Programming (focused on python) 🧑‍💻️
+## 🧑‍💻️Programming (focused on python)
 <details>
 <summary>Expand ⬇️</summary>
 <br>
