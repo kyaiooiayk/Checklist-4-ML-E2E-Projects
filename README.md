@@ -47,7 +47,7 @@ master-project-root-folder    #Project folder
 ## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
 2. [Data](#data)
-3. [Programming](#programming-focused-on-python)
+3. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
 4. [Modelling](#modelling)
 5. [Deployment](#deployment)
 6. [Responsible AI](#responsabile-ai)
