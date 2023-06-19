@@ -240,7 +240,13 @@ master-project-root-folder    #Project folder
 <summary>Expand ⬇️</summary>
 <br>
 
-- [DRY](https://www.earthdatascience.org/courses/earth-analytics/automate-science-workflows/write-efficient-code-for-science-r/) - Don't repeat yourself. If you find yourself writing the same code more than twice. Modularize it and save it in a repo, for yourself in the next project and colleagues.
+- [DRY](https://www.earthdatascience.org/courses/earth-analytics/automate-science-workflows/write-efficient-code-for-science-r/) - Don't repeat yourself. If you find yourself writing the same code more than twice. Modularise it and save it in a repo, for yourself in the next project and colleagues.
+- [SOLID](https://en.wikipedia.org/wiki/SOLID): is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable.
+  - The Single-responsibility principle: "There should never be more than one reason for a class to change."[5] In other words, every class should have only one responsibility.
+  - The Open–closed principle: "Software entities ... should be open for extension, but closed for modification."[7]
+  - The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."[8] See also design by contract.[8]
+  - The Interface segregation principle: "Clients should not be forced to depend upon interfaces that they do not use."[9][4]
+  - The Dependency inversion principle: "Depend upon abstractions, [not] concretions."[10][4]
 - <ins>OOP (Object-Oriented Programming)</ins>:
   - Inheritance vs. composition: 'is-a' vs. 'has-a' relationship | [Tutorial](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Composition%20vs.%20inheritance.ipynb)
 - <ins>Code release</ins>:
