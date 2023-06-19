@@ -106,8 +106,8 @@ master-project-root-folder    #Project folder
 <br>
 
 - Decide between GitHub and GitLab
-- Create .gitignore file | [Example #1]()
-- Configure git Hooks
+- Create .gitignore file | [Example #1](https://github.com/kyaiooiayk/Git-Cheatsheet/blob/main/.gitignore)
+- Configure git Hooks | [Notes](https://github.com/kyaiooiayk/Git-Cheatsheet/tree/main#git-hooks)
 
 </details>
   
