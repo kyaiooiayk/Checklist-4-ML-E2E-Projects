@@ -46,14 +46,15 @@ master-project-root-folder    #Project folder
 
 ## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
-2. [Environment, Package and Project Manager](#environment-package-and-project-manager)
-3. [Data](#data)
-4. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
-5. [Modelling](#modelling)
-6. [Deployment](#deployment)
-7. [Responsible AI](#responsabile-ai)
-8. [Continuous (MLOps)](#continuous-mlops)
-9. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
+2. [Version control](#version-control)
+3. [Environment, Package and Project Manager](#environment-package-and-project-manager)
+4. [Data](#data)
+5. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
+6. [Modelling](#modelling)
+7. [Deployment](#deployment)
+8. [Responsible AI](#responsabile-ai)
+9. [Continuous (MLOps)](#continuous-mlops)
+10. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
 ***
 
 ## Scoping (Project Managment)
@@ -99,6 +100,17 @@ master-project-root-folder    #Project folder
 - [List of lessons learnt | Learn from others' mistakes](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt)
 </details>
 
+## Version control
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+
+- Decide between GitHub and GitLab
+- Create .gitignore file | [Example #1]()
+- Configure git Hooks
+
+</details>
+  
 ## Environment, Package and Project Manager
 <details>
 <summary>Expand ⬇️</summary>
