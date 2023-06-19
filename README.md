@@ -46,13 +46,14 @@ master-project-root-folder    #Project folder
 
 ## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
-2. [Data](#data)
-3. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
-4. [Modelling](#modelling)
-5. [Deployment](#deployment)
-6. [Responsible AI](#responsabile-ai)
-7. [Continuous (MLOps)](#continuous-mlops)
-8. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
+2. [Environment, Package and Project Manager](#environment-package-and-project-manager)
+3. [Data](#data)
+4. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
+5. [Modelling](#modelling)
+6. [Deployment](#deployment)
+7. [Responsible AI](#responsabile-ai)
+8. [Continuous (MLOps)](#continuous-mlops)
+9. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
 ***
 
 ## Scoping (Project Managment)
@@ -96,6 +97,13 @@ master-project-root-folder    #Project folder
   - Model pipeline
   - Serving pipeline
 - [List of lessons learnt | Learn from others' mistakes](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt)
+</details>
+
+## Environment, Package and Project Manager
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+
 </details>
 
 ## Data
