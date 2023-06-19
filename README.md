@@ -103,6 +103,10 @@ master-project-root-folder    #Project folder
 <details>
 <summary>Expand ⬇️</summary>
 <br>
+  
+- Conda | [Notes](https://github.com/kyaiooiayk/Environment-Package-and-Project-Manager)
+- pip | [Notes](https://github.com/kyaiooiayk/Environment-Package-and-Project-Manager)
+- Poetry | [Notes](https://github.com/kyaiooiayk/Environment-Package-and-Project-Manager)
 
 </details>
 
