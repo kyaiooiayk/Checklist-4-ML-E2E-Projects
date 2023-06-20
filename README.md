@@ -540,6 +540,7 @@ This section is concerned with all those aspects that are repetitive in their na
     - [ZenML](https://docs.zenml.io/getting-started/introduction) is an extensible, open-source MLOps framework to create production-ready machine learning pipelines. Built for data scientists, it has a simple, flexible syntax, is cloud- and tool-agnostic, and has interfaces/abstractions that are catered towards ML workflows.
     - [Metaflow](https://docs.metaflow.org/) is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
     - [Kredo vs. ZenML vs. Metaflow](https://neptune.ai/blog/kedro-vs-zenml-vs-metaflow)
+    - ⭐[[Apache Airflow](https://airflow.apache.org/) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Airflow)] Apache is a very mature and popular option initially developed to orchestrate data engineering and extract-transform-load (ETL) pipelines for analytics workloads. Airflow has expanded into the machine-learning space as a viable pipeline orchestrator. 
 
 </details>
 
