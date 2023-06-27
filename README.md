@@ -278,10 +278,16 @@ master-project-root-folder    #Project folder
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
     - ⭐️[Ruff](https://beta.ruff.rs/docs/) An extremely fast Python linter, written in Rust. Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
-- <ins>Code optimisation</ins>:
-    - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Notes](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Production-grade%20code)
+- <ins>Production Code (How maintainable is it?)</ins>:
+    - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Notes](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Production-grade%20code)     
+- <ins>Code optimisation (How fast is it?)</ins>:
     - **Profilers** are tools  that aim to assess the space or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls. | [Notes on how to profile parallel jobs](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials/Profiling_SKLearn_Parallel_Jobs) | [Notes on how to profile on jupyter notebook](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Code_profiling.ipynb)
     - **Caching** consists in keeping recently (or frequently) used data in a memory location that has cheap and fast access for repeated queries. | [Notes](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Caching.ipynb)
+    - **Multi-threading** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
+    - **Multi-processing** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
+    - **Cython** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
+    - **Numba** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
+    - **Scoop** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
 - <ins>Code testing</ins>:
     - [Unittesting](https://docs.python.org/3/library/unittest.html) | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Unittesting) Unit tests point to a specific issue that requires fixing. 
     - [Doctest](https://docs.python.org/3/library/doctest.html#module-doctest) | is a module considered easier to use than the unittest, though the latter is more suitable for more complex tests. doctest is a test framework that comes prepackaged with Python. | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Doctest)
