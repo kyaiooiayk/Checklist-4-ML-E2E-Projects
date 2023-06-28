@@ -283,8 +283,8 @@ master-project-root-folder    #Project folder
 - <ins>Code optimisation (How fast is it?)</ins>:
     - **Profilers** are tools  that aim to assess the space or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls. | [Notes on how to profile parallel jobs](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials/Profiling_SKLearn_Parallel_Jobs) | [Notes on how to profile on jupyter notebook](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Code_profiling.ipynb)
     - **Caching** consists in keeping recently (or frequently) used data in a memory location that has cheap and fast access for repeated queries. | [Notes](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/blob/master/tutorials/Caching.ipynb)
-    - **Multi-threading** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
-    - **Multi-processing** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
+    - **Multi-threading** [Tutorials](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials) | [Notes](https://drive.google.com/drive/u/1/folders/13mzxrofldkbdgF_eT5EPZ1cEiCgOT78d)
+    - **Multi-processing** [Tutorials](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials) | [Notes](https://drive.google.com/drive/u/1/folders/13mzxrofldkbdgF_eT5EPZ1cEiCgOT78d)
     - **Cython** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
     - **Numba** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
     - **Scoop** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
