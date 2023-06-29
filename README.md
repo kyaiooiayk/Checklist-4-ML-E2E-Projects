@@ -413,7 +413,7 @@ master-project-root-folder    #Project folder
     - joblib
     - pickle
     - [ONNX](https://onnx.ai/) changes the paradigm in the sense that it aims to store the instructions to replicate the NN model. This allows to train your model in PT and run inference on TF. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
-- <ins>Model optimisation</ins>:
+- <ins>Model optimisation</ins> | [Notes](https://github.com/kyaiooiayk/Cheap-ML-models):
     - Quantisation
     - Pruning
     - Teacher-student models
