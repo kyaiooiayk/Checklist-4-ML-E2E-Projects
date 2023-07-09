@@ -302,7 +302,7 @@ master-project-root-folder    #Project folder
 - <ins>Code shipping</ins>:
     - Maven : it is used to create deployment package.
     - Containersition with [Docker](https://www.docker.com/) | [Notes](https://github.com/kyaiooiayk/Docker-Notes) is the golden and widespread standard
-- <ins>Code packaging</ins> is the action of creating a package out of your python project wiht the intent to distribute it. This consists in adding the necessary files, structure and how to build the package. Further one can also upload it to the Python Package Index (PyPI). [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Packaging)
+- <ins>Code packaging</ins> is the action of creating a package out of your python project wiht the intent to distribute it. This consists in adding the necessary files, structure and how to build the package. Further one can also upload it to the Python Package Index (PyPI). | [Notes](https://github.com/kyaiooiayk/Python-project-template/blob/main/README.md)
     
 </details>
 
