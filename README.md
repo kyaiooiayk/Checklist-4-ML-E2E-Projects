@@ -264,7 +264,7 @@ master-project-root-folder    #Project folder
     - **Strategy Pattern** is used to decouple algorithms.
     - **Adapter Pattern** is used to decouple external services.  
 - <ins>Linters & Formatter | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
-    - [Pylint](https://pypi.org/project/pylint/) | [Why no one uses Pylint](https://pythonspeed.com/articles/pylint/)
+    - [Pylint](https://pypi.org/project/pylint/) is a static code analyser for Python 2 or 3. it analyses your code without actually running it. It checks for errors, enforces a coding standard, looks for code smells, and can make suggestions about how the code could be refactored. | [Why no one uses Pylint](https://pythonspeed.com/articles/pylint/)
     - Pyflakes
     - autopep8
     - Bandit
