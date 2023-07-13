@@ -1,5 +1,5 @@
 #  📋Checklist-4-ML-E2E-Projects📋
-Checklist for ML (but I guess will touch topics related to SE, DE & DevOps) projects. See [here](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map) to see the same but in a mind map. I admit classifying all the available options is not an easy task and what you see here is not written in stone, and should be considered my personal preference. This list serves the following purpouses:
+Checklist for ML (via SE, DE & DevOps) projects. See [here](https://github.com/kyaiooiayk/The-Data-Scientist-Mind-Map) to see the same but in a mind map. I admit classifying all the available options is not an easy task and what you see here is not written in stone, and should be considered my personal preference. This list serves the following purpouses:
 - Provides a **checklist** for things that are obvious but are rarely done or effectively mostly forgotten
 - Provides a **step-by-step** guide (template) to ML project
 - Provides **links & references**
@@ -57,7 +57,7 @@ master-project-root-folder    #Project folder
 10. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
 ***
 
-## Scoping (Project Managment)
+## 🌍Scoping (Project Managment)
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -100,7 +100,7 @@ master-project-root-folder    #Project folder
 - [List of lessons learnt | Learn from others' mistakes](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt)
 </details>
 
-## Version control
+## 💾Version control
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -122,7 +122,7 @@ master-project-root-folder    #Project folder
 
 </details>
 
-## Data
+## 💽Data
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -262,7 +262,10 @@ master-project-root-folder    #Project folder
 - <ins>Production-grade code</ins> | [Notes](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Production-grade%20code):
     - **Factory Pattern** is used to decouple data IO, or in other words the data sources (SQL, pandas etc ..)
     - **Strategy Pattern** is used to decouple algorithms.
-    - **Adapter Pattern** is used to decouple external services.  
+    - **Adapter Pattern** is used to decouple external services.
+- <ins>Python style guide</ins>
+  - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html#Threading)
+  - [Python code style guidelines](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/blob/main/tutorials/Code_style.md)
 - <ins>Linters & Formatter | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
     - [Pylint](https://pypi.org/project/pylint/) is a static code analyser for Python 2 or 3. it analyses your code without actually running it. It checks for errors, enforces a coding standard, looks for code smells, and can make suggestions about how the code could be refactored. | [Why no one uses Pylint](https://pythonspeed.com/articles/pylint/). Install it with `pip install pylint`. Usage: `pylint file.py --errors-only --disable=C,R` or `pylint file.py --errors-only --disable=C,R`
     - Pyflakes
@@ -308,7 +311,7 @@ master-project-root-folder    #Project folder
 
 ***
 
-## Modelling
+## ⚙️Modelling
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -429,7 +432,7 @@ master-project-root-folder    #Project folder
 
 ***
 
-## Deployment
+## 🚢Deployment
 <details>
 <summary>Expand ⬇️</summary>
 <br>
