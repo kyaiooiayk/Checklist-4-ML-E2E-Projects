@@ -411,10 +411,10 @@ master-project-root-folder    #Project folder
     - If our application requires **low latency**, then we should deploy the model as a real-time API to provide super-fast predictions on single prediction requests over HTTPS.
      - For **less-latency-sensitive** applications that require high throughput, we should deploy our model as a batch job to perform batch predictions on large amounts of data.
 - <ins>Model serialisation (aka model persistence)/deserialisation</ins>. Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation) | Some of the formats used are: 
-    - hdf5
-    - dill
-    - joblib
-    - pickle
+    - [hdf5](https://www.hdfgroup.org/solutions/hdf5)
+    - [dill](https://pypi.org/project/dill/) is used when pickle or joblib won’t work, or when you have custom functions that need to be serialised as part of the model. In general, dill will provide the most flexibility in terms of getting the model serialised and should be considered the path of least resistance when it comes to serialising ML models for production.
+    - [joblib](https://joblib.readthedocs.io/en/latest/index.html) is used for objects which contain lots of data in numpy arrays.
+    - [pickle](https://docs.python.org/3/library/pickle.html#module-pickle) is used to serialise objects with an importable hierarchy.
     - [ONNX](https://onnx.ai/) changes the paradigm in the sense that it aims to store the instructions to replicate the NN model. This allows to train your model in PT and run inference on TF. | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/tree/master/tutorials/Model_Serialisation)
 - <ins>Model optimisation</ins> | [Notes](https://github.com/kyaiooiayk/Cheap-ML-models):
     - Quantisation
