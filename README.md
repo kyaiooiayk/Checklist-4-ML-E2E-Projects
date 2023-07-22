@@ -50,7 +50,7 @@ master-project-root-folder    #Project folder
 3. [Environment, Package and Project Manager](#environment-package-and-project-manager)
 4. [Data](#data)
 5. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
-6. [Modelling](#modelling)
+6. [Modelling](#%EF%B8%8Fmodelling)
 7. [Deployment](#deployment)
 8. [Responsible AI](#responsabile-ai)
 9. [Continuous (MLOps)](#continuous-mlops)
