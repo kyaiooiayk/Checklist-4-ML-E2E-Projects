@@ -490,7 +490,7 @@ master-project-root-folder    #Project folder
         - EKS by Amazon
         - AKS by Microsoft
         - GKS by Google
-    - If you want to run Kubernets on your local machine (generally this is done to quickly test everythong is OK):
+    - If you want to run Kubernets on your local machine (generally this is done to quickly test everything is OK):
         - [minikube](https://minikube.sigs.k8s.io/docs/)
         - [kind](https://kind.sigs.k8s.io/)
         - [k3s](https://k3s.io/) 
