@@ -274,6 +274,7 @@ master-project-root-folder    #Project folder
     - Prospector
     - Pylama
     - Pyroma
+    - [isort](https://pycqa.github.io/isort/) is a Python utility / library to sort imports alphabetically, and automatically separated into sections and by type. 
     - [Mypy](https://mypy.readthedocs.io/en/stable/) is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. 
     - Radon
     - mccabe 
