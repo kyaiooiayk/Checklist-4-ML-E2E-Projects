@@ -266,7 +266,7 @@ master-project-root-folder    #Project folder
 - <ins>Python style guide</ins>
   - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html#Threading)
   - [Python code style guidelines](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/blob/main/tutorials/Code_style.md)
-- <ins>Linters & Formatter | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)</ins>:
+- <ins>Linters & Formatter</ins> Linter is there to catch potential bugs and issues, whereas a formatter is there to enforce a consistent code style and format. | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/):
     - [Pylint](https://pypi.org/project/pylint/) is a static code analyser for Python 2 or 3. it analyses your code without actually running it. It checks for errors, enforces a coding standard, looks for code smells, and can make suggestions about how the code could be refactored. | [Why no one uses Pylint](https://pythonspeed.com/articles/pylint/). Install it with `pip install pylint`. Usage: `pylint file.py --errors-only --disable=C,R` or `pylint file.py --errors-only --disable=C,R`
     - Pyflakes
     - autopep8
@@ -281,7 +281,7 @@ master-project-root-folder    #Project folder
     - [Black](https://black.readthedocs.io/en/stable/) is essentially an autoformatter.
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
-    - ⭐️[Ruff](https://beta.ruff.rs/docs/) An extremely fast Python linter, written in Rust. Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
+    - ⭐️[Ruff](https://beta.ruff.rs/docs/) is an extremely fast Python linter, written in Rust. Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
 - <ins>Production Code (How maintainable is it?)</ins>:
     - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Notes](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Production-grade%20code)     
 - <ins>Code optimisation (How fast is it?)</ins>:
