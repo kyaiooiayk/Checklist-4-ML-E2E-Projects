@@ -69,7 +69,7 @@ master-project-root-folder    #Project folder
     - [QlikSense](https://www.qlik.com/us/products/qlik-sense)
     - [Dundas BI](https://insightsoftware.com/dundas/)
     - [Sisense](https://www.sisense.com/)
-- ❓ What is the project main objective(s)?
+- ❓ What are the project main objectives?
 - ❓ Which part of the main objective the ML model(s) is addressing?
 - 📈📉 Establish a [baseline](https://blog.ml.cmu.edu/2020/08/31/3-baselines/) against which your ML will be considered successful (an improvement against the baseline)
 - ❓ Are there any solutions not based on a ML model? You are likely to be asked to compared your method against some no-ML model!
@@ -98,6 +98,14 @@ master-project-root-folder    #Project folder
   - Model pipeline
   - Serving pipeline
 - [List of lessons learnt | Learn from others' mistakes](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt)
+- Patterns for building ML-driven product [Ref](https://eugeneyan.com/writing/llm-patterns/?utm_source=substack&utm_medium=email)
+  - *Evaluations* to measure performance. A set of measurements used to assess a model’s performance on a task. They include benchmark data and metrics. 
+  - *Retrive external (to the model) data*: to add recent, external knowledge. Fetch relevant data from outside the foundation model and enhances the input with this data, providing richer context to improve output.
+  - *Fine-tuning*: To get better at specific tasks rather having some average product.
+  - *Caching* to reduce latency & cost
+  - *Guardrails* to ensure output quality. This is not limited to LLms.
+  - *Defensive UX* to anticipate & manage errors gracefully
+  - *Collect user feedback* to build our data flywheel.   
 </details>
 
 ## 💾Version control
