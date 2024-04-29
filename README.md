@@ -42,6 +42,17 @@ master-project-root-folder    #Project folder
 ├──── Postproces.py
 ├──── Unittesting
 ```
+- Another project organisation may look like this (8 packages - see modules vs. packages):
+  - configs: in configs we define every single thing that can be configurable and can be changed in the future. Good examples are training hyperparameters, folder paths, the model architecture, metrics, flags
+  - dataloader is quite self-explanatory. All the data loading and data preprocessing classes and functions live here.
+  - evaluation is a collection of code that aims to evaluate the performance and accuracy of our model.
+  - executor: in this folder, we usually have all the functions and scripts that train the model or use it to predict something in different environments. And by different environments I mean: executors for GPUs, executors for distributed systems. This package is our connection with the outer world and it’s what our “main.py” will use.
+  - model contains the actual deep learning code (we talk about tensorflow, pytorch etc)
+  - notebooks include all of our jupyter/colab notebooks in one place.
+  - ops: this one is not always needed, as it includes operations not related with machine learning such as algebraic transformations, image manipulation techniques or maybe graph operations.
+  - utils: utilities functions that are used in more than one places and everything that don’t fall in on the above come here.
+  - `__init__.py`
+  - `main.py`
 ***
 
 ## Table of contents
@@ -604,4 +615,4 @@ This is a super compressed list.
 ***
 
 ## Other checklists
-[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) | [Ref#3](https://github.com/datastacktv/data-engineer-roadmap) | [Ref#4](https://github.com/igorbarinov/awesome-data-engineering#databases) | [awesome-production-machine-learning](https://github.com/zhimin-z/awesome-production-machine-learning) | [Made with ML](https://madewithml.com/) | [Google best practices guide on ML](https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf?utm_source=substack&utm_medium=email)
+[Ref#1](https://github.com/ageron/handson-ml3/blob/main/ml-project-checklist.md) | [Ref#2](https://github.com/RJZauner/machine-learning-project-checklist) | [Ref#3](https://github.com/datastacktv/data-engineer-roadmap) | [Ref#4](https://github.com/igorbarinov/awesome-data-engineering#databases) | [Ref#5](https://theaisummer.com/best-practices-deep-learning-code/) | [awesome-production-machine-learning](https://github.com/zhimin-z/awesome-production-machine-learning) | [Made with ML](https://madewithml.com/) | [Google best practices guide on ML](https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf?utm_source=substack&utm_medium=email)
