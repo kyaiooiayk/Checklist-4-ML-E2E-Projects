@@ -302,6 +302,9 @@ master-project-root-folder    #Project folder
     - [pycodestyle](https://pypi.org/project/pycodestyle/) is similar to black but the big difference between black and pycodestyle is that black does reformat your code, whereas pycodestyle just complains.
     - [Flake8](https://flake8.pycqa.org/en/latest/) does much more than what black does. Flake8 is very close to be perfectly compatible with black.
     - ⭐️[Ruff](https://beta.ruff.rs/docs/) is an extremely fast Python linter, written in Rust. Ruff can be used to replace Flake8 (plus dozens of plugins), isort, pydocstyle, yesqa, eradicate, pyupgrade, and autoflake, all while executing tens or hundreds of times faster than any individual tool.
+- <ins>Static type checker</ins> is the process of verifying and enforcing the constraints of types.:
+  - [Pytype](https://github.com/google/pytype)
+  - IDE such pycharm will do it automatically.
 - <ins>Production Code (How maintainable is it?)</ins>:
     - **Refactoring** aims to revisit the source code in order to improve operation without altering functionality. | [Notes](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Production-grade%20code)     
 - <ins>Code optimisation (How fast is it?)</ins>:
