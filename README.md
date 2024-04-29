@@ -269,6 +269,10 @@ master-project-root-folder    #Project folder
   - The Dependency inversion principle: "Depend upon abstractions, [not] concretions."[10][4]
 - <ins>OOP (Object-Oriented Programming)</ins>:
   - Inheritance vs. composition: 'is-a' vs. 'has-a' relationship | [Tutorial](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Composition%20vs.%20inheritance.ipynb)
+- <ins>Docs | [Tutorials](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/blob/main/tutorials/GitHub_MD_rendering/Docstrings.ipynb)</ins>:
+  - [NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) Combination of reStructured and GoogleDocstrings and supported by Sphinx    
+  - [EpyDoc](http://epydoc.sourceforge.net/) Render Epytext as series of HTML documents and a tool for generating API documentation for Python modules based on their Docstrings
+  - [Google Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) Google's Style
 - <ins>Code release</ins>:
     - Major
     - Minor
