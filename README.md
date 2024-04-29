@@ -319,7 +319,7 @@ master-project-root-folder    #Project folder
     - **Cython** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
     - **Numba** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
     - **Scoop** [Note](https://github.com/kyaiooiayk/High-Performance-Computing-in-Python/tree/master/tutorials)
-- <ins>Code testing</ins>:
+- <ins>Code testing</ins> [Tutorials](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/tree/main/tutorials/Testing):
     - [Unittesting](https://docs.python.org/3/library/unittest.html) | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Unittesting) Unit tests point to a specific issue that requires fixing. | [How to unittest DL model](https://theaisummer.com/unit-test-deep-learning/)
     - [Doctest](https://docs.python.org/3/library/doctest.html#module-doctest) | is a module considered easier to use than the unittest, though the latter is more suitable for more complex tests. doctest is a test framework that comes prepackaged with Python. | [Notes](https://github.com/kyaiooiayk/Python-Programming/tree/main/tutorials/Doctest)
     - [Functional testing](https://brightsec.com/blog/unit-testing-vs-functional-testing/) checks the entire application thus, it mainly indicates a general issue without pointing out a specific problem.
