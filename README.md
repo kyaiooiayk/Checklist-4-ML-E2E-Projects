@@ -55,6 +55,7 @@ master-project-root-folder    #Project folder
 8. [Responsible AI](#responsabile-ai)
 9. [Continuous (MLOps)](#continuous-mlops)
 10. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
+11. [Architecture](#architecture)
 ***
 
 ## 🌍Scoping (Project Managment)
