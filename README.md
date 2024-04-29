@@ -564,6 +564,16 @@ This section is concerned with all those aspects that are repetitive in their na
 
 ***
 
+## Architecture
+
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+- test
+</details>
+
+***
+
 ## What a Data Scientist should know about MLOps
 
 <details>
