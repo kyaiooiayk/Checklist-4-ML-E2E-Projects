@@ -60,13 +60,14 @@ master-project-root-folder    #Project folder
 2. [Version control](#version-control)
 3. [Environment, Package and Project Manager](#environment-package-and-project-manager)
 4. [Data](#data)
-5. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
-6. [Modelling](#%EF%B8%8Fmodelling)
-7. [Deployment](#deployment)
-8. [Responsible AI](#responsabile-ai)
-9. [Continuous (MLOps)](#continuous-mlops)
-10. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
-11. [Architecture](#architecture)
+5. [Data Engineering](#data-engineering)
+6. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
+7. [Modelling](#%EF%B8%8Fmodelling)
+8. [Deployment](#deployment)
+9. [Responsible AI](#responsabile-ai)
+10. [Continuous (MLOps)](#continuous-mlops)
+11. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
+12. [Architecture](#architecture)
 ***
 
 ## 🌍Scoping (Project Managment)
@@ -248,11 +249,22 @@ master-project-root-folder    #Project folder
     - No data or only a handful of examples. Enough/handful means some in order to get a sense of the problem specification but too few to train an algorithm). Consider these options:
       - A literature review
       - Analyse what others have done may give you a sense of what’s feasible.
+
+</details>
+
+***
+
+## ⛓️Data Engineering
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+
 - Build an ETL/ELT (Extra, Transform & Load) pipeline | [Notes](https://github.com/kyaiooiayk/ETL-and-ML-Pipelines-Notes/blob/main/README.md):
     - **ETL** is best used for on-premise data that needs to be structured before uploading it to a relational data warehouse. This method is typically implemented when datasets are small and there are clear metrics that a business values because large datasets will require more time to process and parameters are ideally defined before the transformation phase.
     - **ELT** is best suited for large volumes of data and implemented in cloud environments where the large storage and computing power available enables the data lake to quickly store and transform data as needed. ELT is also more flexible when it comes to the format of data but will require more time to process data for queries since that step only happens as needed versus ETL where the data is instantly queryable after loading.
+    - 
 </details>
-
+  
 ***
 
 ## 🧑‍💻️Programming (focused on python)
