@@ -524,7 +524,7 @@ master-project-root-folder    #Project folder
     - [[Dash](https://plotly.com/building-machine-learning-web-apps-in-python/)]
     - [[Gradio](https://github.com/gradio-app/gradio)]
 - <ins>Service end point</ins>:
-    - [FastAPI](https://fastapi.tiangolo.com/): fast and a good solution for testing, has limitation when it comes to clients' request workload
+    - [FastAPI](https://fastapi.tiangolo.com/): fast and a good solution for testing, has limitation when it comes to clients' request workload [More here](https://www.reddit.com/r/Python/comments/2jja20/is_flask_good_enough_to_develop_large_applications/?rdt=56532)
     - [Flask](https://flask.palletsprojects.com/en/2.2.x/): it is less complex but not as complete as Dijango
     - [Django](https://www.djangoproject.com/): for most advanced stuff
 - <ins>Public server deployment</ins>:
