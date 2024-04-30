@@ -553,7 +553,7 @@ master-project-root-folder    #Project folder
         - [minikube](https://minikube.sigs.k8s.io/docs/)
         - [kind](https://kind.sigs.k8s.io/)
         - [k3s](https://k3s.io/) 
-    - Other rchestration tools:
+    - Other orchestration tools:
         - [Argo Workflows](https://github.com/argoproj/argo-workflows) an open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
 
 </details>
