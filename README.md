@@ -11,7 +11,7 @@ Checklist for ML (via SE, DE & DevOps) projects. See [here](https://github.com/k
 - Provide a small definition of each concept/bullet point/check
 - Provide a link to notes where a concept is further discussed
 - Provide a checklist to be followed in a chronological order
-- List the available methods in the literature
+- List the available methods in th∂e literature
 - List tools/packages that have incorporated the methods above
 - Provide the original paper of the cited method
 ***
@@ -274,8 +274,11 @@ master-project-root-folder    #Project folder
   - **Caching** is a way to temporarily store data in memory to avoid repeating some operations. The caveat here is that we have to be very careful on the limitations of our resources, to avoid overloading the cache with too much data.
   - **Streaming** allows to transmit or receiving data as a steady, continuous flow, allowing playback to start while the rest of the data is still being received. We can open a connection with an external data source and keep processing the data and training a ML model as long as they come. [Kafka](https://kafka.apache.org/) is a high performant, distributed messaging system that takes care of this streaming idea.
 - <ins>Data vs. model parallelism</ins>
-  - **Data parallelism [easie]**: concerns how how to distribute our data and train the model in multiple devices (CPUs, GPUs, TPUs) with different chunks.
+  - **Data parallelism [easy]**: concerns how how to distribute our data and train the model in multiple devices (CPUs, GPUs, TPUs) with different chunks.
   - **Model parallelism [harder]**: When a model is so big that it doesn't fit in the memory of a single device, we can divide it into different parts, distribute them across multiple machines and train each one of them independently using the same data. In an encoder-decoder architecture to train the decoder and the encoder into different machines. This can be combined with data parallelism: feeding the exact same (n-th) data batch into both machines.
+- <ins>How to scale your DB</ins>:
+  - For **SQL-based** solution: scalability techniques such as master-slave replication, sharding, denormalization, federation
+  - For **for NoSQL** solution: scalability techniques are key-value, document, column-based, graph
 
 </details>
   
