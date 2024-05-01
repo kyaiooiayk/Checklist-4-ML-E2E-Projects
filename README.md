@@ -622,13 +622,20 @@ This section is concerned with all those aspects that are repetitive in their na
 <details>
 <summary>Expand ⬇️</summary>
 <br>
-  
-- Every system/architecture should be built based on some basic principles:
-  - Separation of concerns: The system should be modularised into different components with each component being a separate maintainable, reusable and extensible entity.
-  - Scalability: The system needs to be able to scale as the traffic increases
-  - Reliability: The system should continue to be functional even if there is software of hardware failure
-  - Availability: The system needs to continue operating at all times
-  - Simplicity: The system has to be as simple and intuitive as possible
+
+- <ins>Top 5 trade-off</ins>:
+  - Cost vs. Performance
+  - Reliability vs. Scalability
+  - Performance vs. Consistency
+  - Security vs. Flexibility
+  - Speed vs. Quality
+    
+- <ins>Every system/architecture should be built based on some basic principles</ins>:
+  - **Separation of concerns**: The system should be modularised into different components with each component being a separate maintainable, reusable and extensible entity.
+  - **Scalability**: The system needs to be able to scale as the traffic increases
+  - **Reliability**: The system should continue to be functional even if there is software of hardware failure
+  - **Availability**: The system needs to continue operating at all times
+  - **Simplicity**: The system has to be as simple and intuitive as possible
     
 </details>
 
