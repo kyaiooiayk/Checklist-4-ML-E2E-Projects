@@ -118,7 +118,15 @@ master-project-root-folder    #Project folder
   - *Caching* to reduce latency & cost
   - *Guardrails* to ensure output quality. This is not limited to LLms.
   - *Defensive UX* to anticipate & manage errors gracefully
-  - *Collect user feedback* to build our data flywheel.   
+  - *Collect user feedback* to build our data flywheel.
+- <ins>Frameworks like AAARRRg (g=growth) to identify your funnel KPIs.</ins>
+  - 𝗔𝘄𝗮𝗿𝗲𝗻𝗲𝘀𝘀 - How does the product get discovered?
+  - 𝗔𝗰𝗾𝘂𝗶𝘀𝗶𝘁𝗶𝗼𝗻 - How does it acquire users?
+  - 𝗔𝗰𝘁𝗶𝘃𝗮𝘁𝗶𝗼𝗻 - How many use it?
+  - 𝗥𝗲𝘁𝗲𝗻𝘁𝗶𝗼𝗻 - How many users return?
+  - 𝗥𝗲𝘃𝗲𝗻𝘂𝗲 - What's the revenue?
+  - 𝗥𝗲𝗳𝗲𝗿𝗿𝗮𝗹 - How many refer to the product?
+
 </details>
 
 ## 💾Version control
