@@ -369,9 +369,8 @@ master-project-root-folder    #Project folder
     - [cython](https://cython.org/) - Cython is an optimising static compiler that takes your .py modules and translates them to high-performant C files. Resulting C files can be compiled into native binary libraries with no effort. When the compilation is done there’s no way to reverse compiled libraries back to readable Python source code. What distinguishes this option from the other is that this can be used is to make your code run faster rather than obfuscating it.
 - <ins>Logging</ins>:
     - [Python logging package](https://docs.python.org/3/library/logging.html) | [Tutorial](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/blob/main/tutorials/Logging%20module.ipynb) | [How to log your DL model](https://theaisummer.com/logging-debugging/)
- 
-- <ins>Debugging</ins>:
-  - 
+- <ins>Metrics</ins>:
+  - [Dora | DevOps Research and Assessment](https://laszlo.substack.com/p/dora-metrics-simplified?utm_source=substack&utm_medium=email)   
 - <ins>Code shipping</ins>:
     - Maven : it is used to create deployment package.
     - Containersition with [Docker](https://www.docker.com/) | [Notes](https://github.com/kyaiooiayk/Docker-Notes) is the golden and widespread standard
