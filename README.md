@@ -55,6 +55,35 @@ master-project-root-folder    #Project folder
   - `main.py`
 ***
 
+## Infrastructure
+A good example how a common interface orchastrated by terraform is offerd my [mlinfra](https://mlinfra.io/latest/#how-does-it-work)
+```ymal
+name: aws-mlops-stack
+provider:
+  name: aws
+  account-id: xxxxxxxxx
+deployment:
+  type: kubernetes
+stack:
+  data_versioning:
+    - lakefs # can also be pachyderm or neptune and so on
+  experiment_tracker:
+    - mlflow # can be weights and biases or determined, or neptune or clearml and so on...
+  orchestrator:
+    - zenml # can also be argo, or luigi, or aws-batch or airflow, or dagster, or prefect  or kubeflow or flyte
+  artifact_tracker:
+    - mlflow # can also be neptune or clearml or lakefs or pachyderm or determined or wandb and so on...
+  model_registry:
+    - bentoml # can also be  mlflow or neptune or determined and so on...
+  model_serving:
+    - nvidia_triton # can also be bentoml or fastapi or cog or ray or seldoncore or tf serving
+  monitoring:
+    - nannyML # can be grafana or alibi or evidently or neptune or mlflow or prometheus or weaveworks and so on...
+  alerting:
+    - mlflow # can be mlflow or neptune or determined or weaveworks or prometheus or grafana and so on...
+```
+***
+
 ## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
 2. [Version control](#version-control)
