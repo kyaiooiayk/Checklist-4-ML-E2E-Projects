@@ -613,6 +613,11 @@ This section is concerned with all those aspects that are repetitive in their na
   - [Fiddler](https://www.fiddler.ai/ml-model-monitoring)
   - [EvidentlyAI](https://www.evidentlyai.com/)
   - [Kibana](https://www.elastic.co/kibana/)
+  - mlflow
+  - weights and biases
+  - determined
+  - neptune
+  - clearml
 - <ins>Tools for CI/CD</ins> | [Tools comparison](https://neptune.ai/blog/continuous-integration-continuous-deployment-tools-for-machine-learning):
     - [GitHub Actions](https://github.com/features/actions) | [Notes](https://github.com/kyaiooiayk/MLOps-Machine-Learning-Operations/blob/master/tutorials/GitHub_Actions.md)
     - [GitLab](https://about.gitlab.com/) GitHub and GitLab are remote server repositories based on GIT. GitHub is a collaboration platform that helps review and manage codes remotely. GitLab is the same but is majorly focused on DevOps and CI/CD. 
