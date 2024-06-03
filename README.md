@@ -57,7 +57,7 @@ master-project-root-folder    #Project folder
 
 ## Infrastructure
 A good example how a common interface orchastrated by terraform can be created is offerd my [mlinfra](https://mlinfra.io/latest/#how-does-it-work)
-```ymal
+```yaml
 name: aws-mlops-stack
 provider:
   name: aws
