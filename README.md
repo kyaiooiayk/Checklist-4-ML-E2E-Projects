@@ -186,6 +186,9 @@ master-project-root-folder    #Project folder
     - [Activeloop](https://www.activeloop.ai/)
     - [Modelstore](https://modelstore.readthedocs.io/en/latest/)
     - [ModelDB](https://github.com/VertaAI/modeldb/)
+    - [lakeFS](https://lakefs.io/)
+    - [Pachyderm](https://www.pachyderm.com/)
+    - [Neptune](https://docs.neptune.ai/)
 - ❓ Is there a data bias?
     - ✅ Yes, take action
     - ❌ No, proceed
