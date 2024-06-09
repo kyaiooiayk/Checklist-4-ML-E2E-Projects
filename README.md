@@ -86,17 +86,18 @@ stack:
 
 ## Table of contents
 1. [Scoping (Project Management)](#scoping-project-managment)
-2. [Version control](#version-control)
-3. [Environment, Package and Project Manager](#environment-package-and-project-manager)
-4. [Data](#data)
-5. [Data Engineering](#%EF%B8%8Fdata-engineering)
-6. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
-7. [Modelling](#%EF%B8%8Fmodelling)
-8. [Deployment](#deployment)
-9. [Responsible AI](#responsabile-ai)
-10. [Continuous (MLOps)](#continuous-mlops)
-11. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
-12. [Architecture](#architecture)
+2. [Product](#product)
+3. [Version control](#version-control)
+4. [Environment, Package and Project Manager](#environment-package-and-project-manager)
+5. [Data](#data)
+6. [Data Engineering](#%EF%B8%8Fdata-engineering)
+7. [Programming](#%EF%B8%8Fprogramming-focused-on-python)
+8. [Modelling](#%EF%B8%8Fmodelling)
+9. [Deployment](#deployment)
+10. [Responsible AI](#responsabile-ai)
+11. [Continuous (MLOps)](#continuous-mlops)
+12. [What a Data Scientist should know about MLOps](#what-a-data-scientist-should-know-about-mlops)
+13. [Architecture](#architecture)
 ***
 
 ## 🌍Scoping (Project Managment)
@@ -158,6 +159,13 @@ stack:
 
 </details>
 
+## 📦Product
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+
+</details>
+  
 ## 💾Version control
 <details>
 <summary>Expand ⬇️</summary>
