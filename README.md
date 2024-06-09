@@ -164,6 +164,10 @@ stack:
 <summary>Expand ⬇️</summary>
 <br>
 
+- **MVP**: Focuses on core functionality for early validation.
+- **MLP**: Enhances the MVP to create a delightful user experience.
+- **MMP**: Prepares the product for market entry with a balance of essential features and market readiness.
+
 </details>
   
 ## 💾Version control
