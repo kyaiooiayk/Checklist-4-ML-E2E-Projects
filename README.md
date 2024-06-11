@@ -637,7 +637,7 @@ stack:
 
 
 ## Continuous (MLOps)
-This section is concerned with all those aspects that are repetitive in their nature and help deliver and maintain a ML-based solution. 
+This section is concerned with all those aspects that are repetitive in their nature and help deliver and maintain a ML-based solution. [Why is Continuous Delivery for ML/AI hard(er)?](https://outerbounds.com/blog/continuous-delivery-of-ml-ai/?utm_source=substack&utm_medium=email#why-is-continuous-delivery-for-mlai-harder).
 <details>
 <summary>Expand ⬇️</summary>
 <br>
