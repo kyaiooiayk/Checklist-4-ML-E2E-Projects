@@ -141,7 +141,19 @@ stack:
   - Model pipeline
   - Serving pipeline
 - [List of lessons learnt | Learn from others' mistakes](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt)
-- Patterns for building ML-driven product [Ref](https://eugeneyan.com/writing/llm-patterns/?utm_source=substack&utm_medium=email)
+</details>
+
+## 📦Product
+<details>
+<summary>Expand ⬇️</summary>
+<br>
+  
+- <ins>MVP, MLP MMP</ins>
+  - **MVP**: Focuses on core functionality for early validation.
+  - **MLP**: Enhances the MVP to create a delightful user experience.
+  - **MMP**: Prepares the product for market entry with a balance of essential features and market readiness.
+
+- <ins>Patterns for building ML-driven product </ins> [Ref](https://eugeneyan.com/writing/llm-patterns/?utm_source=substack&utm_medium=email)
   - *Evaluations* to measure performance. A set of measurements used to assess a model’s performance on a task. They include benchmark data and metrics. 
   - *Retrive external (to the model) data*: to add recent, external knowledge. Fetch relevant data from outside the foundation model and enhances the input with this data, providing richer context to improve output.
   - *Fine-tuning*: To get better at specific tasks rather having some average product.
@@ -156,18 +168,10 @@ stack:
   - 𝗥𝗲𝘁𝗲𝗻𝘁𝗶𝗼𝗻 - How many users return?
   - 𝗥𝗲𝘃𝗲𝗻𝘂𝗲 - What's the revenue?
   - 𝗥𝗲𝗳𝗲𝗿𝗿𝗮𝗹 - How many refer to the product?
-
-</details>
-
-## 📦Product
-<details>
-<summary>Expand ⬇️</summary>
-<br>
-
-- **MVP**: Focuses on core functionality for early validation.
-- **MLP**: Enhances the MVP to create a delightful user experience.
-- **MMP**: Prepares the product for market entry with a balance of essential features and market readiness.
-
+- <ins>North Star, KPIs & OKRs</ins>
+  - **North Star Metric** focuses on a single, crucial metric that drives long-term growth and success, serving as the guiding light for all strategies and decisions.
+  - **KPIs (Key Performance Indicators)** are specific metrics that measure performance in various areas of the organization, providing a detailed view of operational success.
+  - **OKRs (Objectives and Key Results)** is goal-setting framework that outlines broad objectives and the specific, measurable results needed to achieve them, aligning team efforts with overall strategic goals.
 </details>
   
 ## 💾Version control
