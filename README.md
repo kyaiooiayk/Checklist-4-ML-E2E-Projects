@@ -375,7 +375,7 @@ stack:
 - <ins>Python style guide</ins>
   - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html#Threading)
   - [Python code style guidelines](https://github.com/kyaiooiayk/Awesome-Python-Programming-Notes/blob/main/tutorials/Code_style.md)
-- <ins>Linters & Formatter</ins> Linter is there to catch potential bugs and issues, whereas a formatter is there to enforce a consistent code style and format. | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/):
+- <ins>Linters & Formatter</ins> They are not the same thing! Linter is there to catch potential bugs and issues, whereas a formatter is there to enforce a consistent code style and format. | [Notes #1](https://github.com/kyaiooiayk/Python-Programming/blob/main/tutorials/Code_style.md) | [Notes #2](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/):
     - [Pylint](https://pypi.org/project/pylint/) is a static code analyser for Python 2 or 3. it analyses your code without actually running it. It checks for errors, enforces a coding standard, looks for code smells, and can make suggestions about how the code could be refactored. | [Why no one uses Pylint](https://pythonspeed.com/articles/pylint/). Install it with `pip install pylint`. Usage: `pylint file.py --errors-only --disable=C,R` or `pylint file.py --errors-only --disable=C,R`
     - Pyflakes
     - autopep8
