@@ -618,7 +618,7 @@ stack:
 
 ***
 
-## Responsabile AI
+## ⛑️Responsabile AI
 <details>
 <summary>Expand ⬇️</summary>
 <br>
@@ -634,7 +634,7 @@ stack:
 - Data governace policy as a series of step-by-step procedures
 - How to detect data anomalies (this is not data cleaning; It is more something done on purpouse to change the data):
   - [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) is a theory which states that small digits (1, 2, 3) appear at the beginning of numbers much more frequently than large digits (7, 8, 9). In theory Benford's Law can be used to detect anomalies in accounting practices or election results, though in practice it can easily be misapplied. If you suspect a dataset has been created or modified to deceive, Benford's Law is an excellent first test, but you should always verify your results with an expert before concluding your data have been manipulated.
-
+- [deon](https://github.com/drivendataorg/deon) is a command line tool that allows you to easily add an ethics checklist to your data science projects.
 </details>
 
 ***
